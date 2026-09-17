@@ -387,10 +387,14 @@
     optinSuccess.classList.add('visible');
   });
 
-  /* CTA buttons — open modal */
-  function bindCta(el){if(!el)return;el.addEventListener('click',function(e){e.preventDefault();openModal()})}
-  bindCta(document.getElementById('ctaBtn'));
-  bindCta(document.getElementById('stickyCtaBtn'));
+  /* CTA buttons — direct to Amazon with Lead CAPI, zero friction */
+  function directToAmazon(e){
+    if(e){e.preventDefault()}
+    fireLeadCAPI();
+    window.open(AMAZON_URL,'_blank','noopener,noreferrer');
+  }
+  document.getElementById('ctaBtn').addEventListener('click',directToAmazon);
+  document.getElementById('stickyCtaBtn').addEventListener('click',directToAmazon);
 
   /* Sticky bar is always visible (CSS-driven) */
 
