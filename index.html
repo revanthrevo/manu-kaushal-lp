@@ -21,12 +21,11 @@
     .page{max-width:480px;margin:0 auto;background:var(--white);min-height:100vh;min-height:100dvh}
     @media(min-width:481px){body{background:#e2e8f0;padding:16px}.page{border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(15,35,42,.1)}}
 
-    .header{background:var(--navy);padding:14px 18px;padding-top:calc(14px + env(safe-area-inset-top,0px));display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:50}
+    .header{background:var(--navy);padding:14px 18px;padding-top:calc(14px + env(safe-area-inset-top,0px));display:flex;align-items:center;position:sticky;top:0;z-index:50}
     .brand{display:flex;align-items:center;gap:10px}
     .brand-mark{width:34px;height:34px;border-radius:8px;background:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--navy);font-size:18px;flex-shrink:0}
     .brand-name{font-size:14px;font-weight:700;color:var(--white);line-height:1.15}
     .brand-name small{display:block;font-size:10px;color:var(--gold);font-weight:500;letter-spacing:.8px;text-transform:uppercase}
-    .header-link{font-size:12px;color:rgba(255,255,255,.85);padding:6px 10px;border:1px solid rgba(255,255,255,.18);border-radius:6px}
 
     .hero{background:linear-gradient(135deg,var(--navy),var(--navy-lt));padding:22px 18px 26px;color:var(--white);position:relative;overflow:hidden}
     .hero::after{content:"";position:absolute;top:-60px;right:-60px;width:180px;height:180px;background:radial-gradient(circle,rgba(245,158,11,.18),transparent 70%);pointer-events:none}
@@ -46,30 +45,33 @@
     .tagline h1 b{color:var(--text);font-weight:700}
 
     .product{padding:18px;background:var(--white);border-bottom:1px solid var(--rule)}
-    .product-layout{display:flex;gap:16px}
-    .product-img{flex-shrink:0;width:140px;height:188px;border-radius:6px;border:1px solid var(--rule);overflow:hidden;background:linear-gradient(135deg,#f8fafc,#e2e8f0);display:flex;align-items:center;justify-content:center}
+    .product-layout{display:flex;gap:14px;align-items:flex-start}
+    .product-img-wrap{flex-shrink:0;width:45vw;max-width:190px;display:flex;flex-direction:column;align-items:center;gap:8px}
+    .product-img{width:100%;aspect-ratio:5/7;border-radius:8px;border:1px solid var(--rule);overflow:hidden;background:linear-gradient(135deg,#f8fafc,#e2e8f0);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.06)}
     .product-img img{max-width:100%;max-height:100%;object-fit:contain}
+    .product-thumbs{display:flex;gap:6px;justify-content:center}
+    .product-thumb{width:36px;height:48px;border-radius:4px;border:1px solid var(--rule);overflow:hidden;background:var(--bg);opacity:.6}
+    .product-thumb img{width:100%;height:100%;object-fit:cover}
     .product-info{flex:1;min-width:0}
-    .product-title{font-size:16px;font-weight:700;color:var(--text);line-height:1.3;letter-spacing:-.2px;margin-bottom:6px}
-    .product-author{font-size:12.5px;color:var(--txt2);margin-bottom:6px}
+    .product-title{font-size:15px;font-weight:700;color:var(--text);line-height:1.3;letter-spacing:-.2px;margin-bottom:5px}
+    .product-author{font-size:12px;color:var(--txt2);margin-bottom:5px}
     .product-author a{color:var(--navy);font-weight:600}
-    .product-format{font-size:11.5px;color:var(--txt3);display:inline-block;padding:2px 8px;background:var(--rule);border-radius:4px;margin-bottom:10px}
-    .rating-row{display:flex;align-items:center;gap:6px;margin-bottom:10px}
+    .product-format{font-size:11px;color:var(--txt3);display:inline-block;padding:2px 8px;background:var(--rule);border-radius:4px;margin-bottom:8px}
+    .rating-row{display:flex;align-items:center;gap:6px;margin-bottom:8px}
     .stars{display:inline-flex;gap:1px}
-    .star{color:var(--star);font-size:16px;line-height:1}
+    .star{color:var(--star);font-size:15px;line-height:1}
     .star.dim{color:#e2e8f0}
-    .rating-text{font-size:12.5px;color:var(--txt2)}
+    .rating-text{font-size:12px;color:var(--txt2)}
     .rating-text b{color:var(--text);font-weight:700}
-    .price-area{padding-top:10px;border-top:1px dashed var(--rule)}
-    .price-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:6px}
-    .price-now{font-size:30px;font-weight:800;color:var(--text);letter-spacing:-1px;line-height:1}
-    .price-sym{font-size:16px;font-weight:700}
-    .price-mrp{font-size:13px;color:var(--txt3)}
+    .price-area{padding-top:8px;border-top:1px dashed var(--rule)}
+    .price-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+    .price-now{font-size:26px;font-weight:800;color:var(--text);letter-spacing:-.8px;line-height:1}
+    .price-sym{font-size:15px;font-weight:700}
+    .price-mrp{font-size:12px;color:var(--txt3)}
     .price-mrp s{text-decoration:line-through}
-    .price-save{display:inline-block;background:var(--save-bg);color:var(--save);font-size:11.5px;font-weight:700;padding:2px 7px;border-radius:4px}
-    .delivery-area{padding-top:10px;margin-top:10px;border-top:1px dashed var(--rule)}
-    .delivery-row{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--txt2);margin-bottom:3px;flex-wrap:wrap}
-    .delivery-row .free{display:inline-flex;align-items:center;background:var(--green-bg);color:var(--green);font-weight:700;padding:2px 8px;border-radius:4px;font-size:11.5px}
+    .price-save{display:inline-block;background:var(--save-bg);color:var(--save);font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px}
+    .you-save{font-size:12px;color:var(--green);font-weight:700;margin-top:4px}
+    .you-save b{color:var(--save)}
 
     .trust-bar{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:14px;background:var(--navy);color:var(--white)}
     .trust-item{display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center}
@@ -78,7 +80,7 @@
     .trust-lbl{font-size:10.5px;color:rgba(255,255,255,.85);line-height:1.25}
 
     .section{padding:22px 18px;background:var(--white);border-bottom:1px solid var(--rule)}
-    .section-head{font-size:17px;font-weight:800;color:var(--text);letter-spacing:-.2px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+    .section-head{font-size:16px;font-weight:800;color:var(--text);letter-spacing:-.2px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
     .section-head::before{content:"";display:inline-block;width:4px;height:18px;background:var(--gold);border-radius:2px}
 
     .author-card{background:var(--bg);border:1px solid var(--rule);border-radius:10px;padding:16px}
@@ -118,16 +120,12 @@
 
     .cta{padding:20px 18px 24px;background:var(--white);border-bottom:1px solid var(--rule)}
     .cta-card{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:2px solid var(--gold);border-radius:12px;padding:20px 18px;box-shadow:0 6px 20px rgba(245,158,11,.18)}
-    .cta-eyebrow{font-size:11px;color:var(--gold-dk);font-weight:700;text-transform:uppercase;letter-spacing:.8px;text-align:center;margin-bottom:8px}
-    .cta-price{font-size:36px;font-weight:800;color:var(--text);text-align:center;letter-spacing:-1px;line-height:1;margin-bottom:4px}
-    .cta-price-sym{font-size:18px;font-weight:700}
+    .cta-price{font-size:32px;font-weight:800;color:var(--text);text-align:center;letter-spacing:-1px;line-height:1;margin-bottom:4px}
+    .cta-price-sym{font-size:16px;font-weight:700}
     .cta-save{text-align:center;font-size:13px;color:var(--save);font-weight:700;margin-bottom:16px}
-    .cta-delivery{text-align:center;font-size:12.5px;color:var(--txt2);margin-bottom:18px}
-    .cta-delivery .free{color:var(--green);font-weight:700}
     .cta-btn{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:var(--gold);color:var(--navy);font-size:16px;font-weight:800;letter-spacing:.2px;padding:16px 20px;border-radius:10px;box-shadow:0 4px 0 var(--gold-dk),0 6px 16px rgba(245,158,11,.35);transition:transform .1s,box-shadow .1s;text-align:center}
     .cta-btn:hover{background:#fbbf24}
     .cta-btn:active{transform:translateY(2px);box-shadow:0 2px 0 var(--gold-dk),0 3px 8px rgba(245,158,11,.35)}
-    .cta-note{text-align:center;font-size:11px;color:var(--txt3);margin-top:12px;display:flex;align-items:center;justify-content:center;gap:5px}
 
     .footer{padding:22px 18px 28px;text-align:center;background:var(--navy-dk);color:rgba(255,255,255,.7)}
     .footer-brand{font-size:14px;font-weight:700;color:var(--white);margin-bottom:8px}
@@ -138,20 +136,61 @@
     .anim{opacity:0;transform:translateY(8px);animation:up .45s ease forwards}
     @keyframes up{to{opacity:1;transform:translateY(0)}}
     .d1{animation-delay:.05s}.d2{animation-delay:.1s}.d3{animation-delay:.15s}.d4{animation-delay:.2s}.d5{animation-delay:.25s}.d6{animation-delay:.3s}
+
+    /* Consent Modal Overlay */
+    .modal-overlay{position:fixed;inset:0;background:rgba(15,23,34,.65);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:100;display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+    .modal-overlay.active{opacity:1;visibility:visible}
+    .modal{background:var(--white);border-radius:14px;padding:24px 20px;max-width:400px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,.25);transform:translateY(16px) scale(.97);transition:transform .25s}
+    .modal-overlay.active .modal{transform:translateY(0) scale(1)}
+    .modal-heading{font-size:15px;font-weight:700;color:var(--text);text-align:center;margin-bottom:6px;line-height:1.35}
+    .modal-sub{font-size:12.5px;color:var(--txt2);text-align:center;margin-bottom:20px;line-height:1.45}
+    .modal-actions{display:flex;gap:10px}
+    .modal-btn{flex:1;padding:14px 16px;border-radius:10px;font-size:14px;font-weight:700;text-align:center;transition:transform .1s,opacity .15s;-webkit-tap-highlight-color:transparent}
+    .modal-btn:active{transform:scale(.97);opacity:.85}
+    .modal-btn-primary{background:var(--gold);color:var(--navy);box-shadow:0 3px 0 var(--gold-dk)}
+    .modal-btn-secondary{background:var(--white);color:var(--navy);border:1.5px solid var(--rule)}
+
+    /* Opt-in Form */
+    .optin-form{margin-top:16px;padding-top:16px;border-top:1px solid var(--rule);display:none}
+    .optin-form.visible{display:block;animation:up .35s ease forwards}
+    .optin-field{margin-bottom:10px}
+    .optin-field label{display:block;font-size:11.5px;font-weight:600;color:var(--txt2);margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px}
+    .optin-field input{width:100%;padding:12px 14px;border:1.5px solid var(--rule);border-radius:8px;font-size:14px;font-family:inherit;color:var(--text);background:var(--bg);outline:none;transition:border-color .15s}
+    .optin-field input:focus{border-color:var(--gold);background:var(--white)}
+    .optin-submit{width:100%;padding:14px;background:var(--navy);color:var(--white);font-size:14px;font-weight:700;border-radius:8px;margin-top:4px;transition:background .15s}
+    .optin-submit:hover{background:var(--navy-lt)}
+    .optin-success{display:none;text-align:center;padding:16px 0 4px}
+    .optin-success.visible{display:block;animation:up .35s ease forwards}
+    .optin-success-icon{font-size:36px;margin-bottom:8px}
+    .optin-success-text{font-size:14px;font-weight:600;color:var(--green)}
+
+    /* Sticky bottom bar */
+    .sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:90;background:var(--white);border-top:1px solid var(--rule);padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));display:none;align-items:center;gap:12px;box-shadow:0 -2px 12px rgba(0,0,0,.08)}
+    .sticky-bar.visible{display:flex}
+    @media(min-width:481px){.sticky-bar{max-width:448px;left:50%;transform:translateX(-50%);border-radius:12px 12px 0 0}}
+    .sticky-price{font-size:20px;font-weight:800;color:var(--text);white-space:nowrap;letter-spacing:-.5px}
+    .sticky-price span{font-size:13px;font-weight:600}
+    .sticky-btn{flex:1;background:var(--gold);color:var(--navy);font-size:14px;font-weight:800;padding:12px 16px;border-radius:8px;text-align:center;box-shadow:0 3px 0 var(--gold-dk);transition:transform .1s}
+    .sticky-btn:active{transform:translateY(1px);box-shadow:0 1px 0 var(--gold-dk)}
+
+    /* Spacer for sticky bar */
+    .sticky-spacer{height:0}
+    .sticky-spacer.active{height:64px}
   </style>
 </head>
 <body>
 <div class="page">
+
+  <!-- TODO: Replace with author photo from Instagram @dr.manukaushal (source couldn't be fetched; current fallback is assets/author-photo.png) -->
 
   <header class="header">
     <div class="brand">
       <div class="brand-mark">M</div>
       <div class="brand-name">Manu Kaushal Publications<small>Excellence in Chemistry</small></div>
     </div>
-    <a href="https://drmanukaushal.com" target="_blank" rel="noopener" class="header-link">Website</a>
   </header>
 
-  <section class="hero anim">
+  <section class="hero anim" id="hero">
     <div class="hero-row">
       <div class="hero-avatar"><img src="assets/author-photo.png" alt="Dr. Manu Kaushal" loading="eager"></div>
       <div class="hero-body">
@@ -167,7 +206,14 @@
 
   <section class="product anim d2">
     <div class="product-layout">
-      <div class="product-img"><img src="assets/book-cover.jpg" alt="Book cover" loading="eager"></div>
+      <div class="product-img-wrap">
+        <div class="product-img"><img src="assets/book-cover.jpg" alt="Book cover" loading="eager"></div>
+        <div class="product-thumbs">
+          <div class="product-thumb"><img src="assets/book-cover.jpg" alt="Cover thumb 1"></div>
+          <div class="product-thumb"><img src="assets/book-cover.jpg" alt="Cover thumb 2"></div>
+          <div class="product-thumb"><img src="assets/book-cover.jpg" alt="Cover thumb 3"></div>
+        </div>
+      </div>
       <div class="product-info">
         <h2 class="product-title">Ace NEET 2026 &amp; JEE 2027 Organic Chemistry</h2>
         <div class="product-author">by <a href="https://drmanukaushal.com" target="_blank" rel="noopener">Dr. Manu Kaushal</a> · <span style="color:var(--gold-dk);font-weight:600;">Manu Kaushal Publications</span></div>
@@ -175,9 +221,8 @@
         <div class="rating-row"><span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star dim">★</span></span><span class="rating-text"><b>4.5</b> · 25 ratings</span></div>
         <div class="price-area">
           <div class="price-row"><span class="price-now"><span class="price-sym">₹</span>1,889</span><span class="price-mrp">MRP <s>₹3,999</s></span><span class="price-save">53% off</span></div>
-          <div style="font-size:13px;color:var(--green);font-weight:700;">You Save <span style="color:var(--save);">₹2,110</span></div>
+          <div class="you-save">You Save <b>₹2,110</b></div>
         </div>
-        <div class="delivery-area"><div class="delivery-row"><span class="free">✓ FREE Delivery</span><span style="color:var(--txt3);font-size:11px;">via Amazon India</span></div></div>
       </div>
     </div>
   </section>
@@ -242,14 +287,11 @@
     </div>
   </section>
 
-  <section class="cta anim d6">
+  <section class="cta anim d6" id="ctaSection">
     <div class="cta-card">
-      <div class="cta-eyebrow">Limited Time Offer</div>
       <div class="cta-price"><span class="cta-price-sym">₹</span>1,889</div>
       <div class="cta-save">You Save ₹2,110 — 53% off MRP ₹3,999</div>
-      <div class="cta-delivery"><span class="free">FREE Delivery</span> to India · In stock</div>
-      <a id="ctaBtn" href="#" target="_blank" rel="noopener" class="cta-btn">Buy on Amazon <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-      <div class="cta-note"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="11" width="16" height="10" rx="1.5"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Secure checkout · Amazon India · Ships in 1–2 days</div>
+      <button id="ctaBtn" class="cta-btn">Buy on Amazon <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
     </div>
   </section>
 
@@ -259,26 +301,112 @@
   </footer>
 
 </div>
+
+<!-- Consent Modal -->
+<div class="modal-overlay" id="consentModal">
+  <div class="modal">
+    <div class="modal-heading">You'll be redirected to Amazon.in to complete your purchase.</div>
+    <div class="modal-sub">Continue to Amazon or stay here to get updates &amp; free resources.</div>
+    <div class="modal-actions">
+      <button class="modal-btn modal-btn-primary" id="continueAmazonBtn">Continue to Amazon →</button>
+      <button class="modal-btn modal-btn-secondary" id="stayHereBtn">Stay here</button>
+    </div>
+    <div class="optin-form" id="optinForm">
+      <form id="leadForm" novalidate>
+        <div class="optin-field"><label for="optinName">Name *</label><input type="text" id="optinName" name="name" placeholder="Your name" required autocomplete="name"></div>
+        <div class="optin-field"><label for="optinPhone">Phone *</label><input type="tel" id="optinPhone" name="phone" placeholder="Your phone number" required autocomplete="tel"></div>
+        <div class="optin-field"><label for="optinEmail">Email *</label><input type="email" id="optinEmail" name="email" placeholder="your@email.com" required autocomplete="email"></div>
+        <button type="submit" class="optin-submit">Get Updates &amp; Free Resources</button>
+      </form>
+      <div class="optin-success" id="optinSuccess">
+        <div class="optin-success-icon">✅</div>
+        <div class="optin-success-text">Thanks! We'll keep you updated.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sticky Bottom CTA Bar -->
+<div class="sticky-bar" id="stickyBar">
+  <div class="sticky-price"><span>₹</span>1,889</div>
+  <button class="sticky-btn" id="stickyCtaBtn">Buy on Amazon →</button>
+</div>
+<div class="sticky-spacer" id="stickySpacer"></div>
+
 <script>
 (function(){
   var AMAZON_URL='https://www.amazon.in/Chemistry-comprehensive-7-module-NCERT-based-competitive/dp/B0FG2WCL3N';
-  var ctaBtn=document.getElementById('ctaBtn');
+
   function getCookie(n){var m=document.cookie.match(new RegExp('(^|; )'+n+'=([^;]*)'));return m?decodeURIComponent(m[2]):null}
   function buildFbc(){try{var p=new URLSearchParams(window.location.search),f=p.get('fbclid');return f?'fb.1.'+Date.now()+'.'+f:null}catch(e){return null}}
   function genId(){return 'evt_'+Date.now()+'_'+Math.random().toString(36).slice(2,10)}
-  if(ctaBtn){
-    ctaBtn.href=AMAZON_URL;
-    ctaBtn.addEventListener('click',function(e){
-      if(e)e.preventDefault();
-      var evt={event:'Lead',content_name:'Ace NEET 2026 & JEE 2027 Organic Chemistry - 7 Module Bundle',content_category:'Book',content_ids:['B0FG2WCL3N'],content_type:'product',value:1889,currency:'INR',num_items:1,page_url:window.location.href,page_title:document.title,timestamp:Date.now(),action_source:'website',user_agent:navigator.userAgent};
-      if(typeof fbq==='function')fbq('track','Lead',{content_name:evt.content_name,content_category:evt.content_category,content_ids:evt.content_ids,content_type:evt.content_type,value:evt.value,currency:evt.currency});
-      var fbp=getCookie('_fbp');if(fbp)evt.fbp=fbp;
-      var fbc=getCookie('_fbc')||buildFbc();if(fbc)evt.fbc=fbc;
-      evt.event_id=genId();
-      try{fetch('/api/capi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(evt),keepalive:true,mode:'cors'}).catch(function(){})}catch(_){}
-      window.open(AMAZON_URL,'_blank','noopener,noreferrer');
-    });
+  function fireLeadCAPI(){
+    var evt={event:'Lead',content_name:'Ace NEET 2026 & JEE 2027 Organic Chemistry - 7 Module Bundle',content_category:'Book',content_ids:['B0FG2WCL3N'],content_type:'product',value:1889,currency:'INR',num_items:1,page_url:window.location.href,page_title:document.title,timestamp:Date.now(),action_source:'website',user_agent:navigator.userAgent};
+    if(typeof fbq==='function')fbq('track','Lead',{content_name:evt.content_name,content_category:evt.content_category,content_ids:evt.content_ids,content_type:evt.content_type,value:evt.value,currency:evt.currency});
+    var fbp=getCookie('_fbp');if(fbp)evt.fbp=fbp;
+    var fbc=getCookie('_fbc')||buildFbc();if(fbc)evt.fbc=fbc;
+    evt.event_id=genId();
+    try{fetch('/api/capi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(evt),keepalive:true,mode:'cors'}).catch(function(){})}catch(_){}
   }
+
+  /* Modal */
+  var modal=document.getElementById('consentModal');
+  var continueBtn=document.getElementById('continueAmazonBtn');
+  var stayBtn=document.getElementById('stayHereBtn');
+  var optinForm=document.getElementById('optinForm');
+  var leadForm=document.getElementById('leadForm');
+  var optinSuccess=document.getElementById('optinSuccess');
+
+  function openModal(){modal.classList.add('active');document.body.style.overflow='hidden'}
+  function closeModal(){modal.classList.remove('active');document.body.style.overflow='';optinForm.classList.remove('visible');optinSuccess.classList.remove('visible');leadForm.reset();leadForm.style.display='';optinSuccess.style.display='none'}
+  function openAmazon(){fireLeadCAPI();window.open(AMAZON_URL,'_blank','noopener,noreferrer');closeModal()}
+
+  continueBtn.addEventListener('click',openAmazon);
+  stayBtn.addEventListener('click',function(){optinForm.classList.add('visible')});
+
+  modal.addEventListener('click',function(e){if(e.target===modal)closeModal()});
+
+  /* Opt-in submit */
+  leadForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=leadForm.name.value.trim();
+    var phone=leadForm.phone.value.trim();
+    var email=leadForm.email.value.trim();
+    if(!name||!phone||!email)return;
+    try{fetch('/api/optin',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:name,phone:phone,email:email,source:'landing_page'}),keepalive:true,mode:'cors'}).catch(function(){})}catch(_){}
+    leadForm.style.display='none';
+    optinSuccess.classList.add('visible');
+  });
+
+  /* CTA buttons — open modal */
+  function bindCta(el){if(!el)return;el.addEventListener('click',function(e){e.preventDefault();openModal()})}
+  bindCta(document.getElementById('ctaBtn'));
+  bindCta(document.getElementById('stickyCtaBtn'));
+
+  /* Sticky bar — show after hero scrolls out of view */
+  var stickyBar=document.getElementById('stickyBar');
+  var stickySpacer=document.getElementById('stickySpacer');
+  var hero=document.getElementById('hero');
+  var stickyVisible=false;
+
+  function updateSticky(){
+    if(!hero||!stickyBar)return;
+    var rect=hero.getBoundingClientRect();
+    var shouldShow=rect.bottom<10;
+    if(shouldShow&&!stickyVisible){stickyBar.classList.add('visible');stickySpacer.classList.add('active');stickyVisible=true}
+    else if(!shouldShow&&stickyVisible){stickyBar.classList.remove('visible');stickySpacer.classList.remove('active');stickyVisible=false}
+  }
+
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){updateSticky()},{threshold:0});
+    obs.observe(hero);
+  }else{
+    window.addEventListener('scroll',updateSticky,{passive:true});
+  }
+  updateSticky();
+
+  /* Keyboard: Escape closes modal */
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&modal.classList.contains('active'))closeModal()});
 })();
 </script>
 <!-- Setup: (1) Replace YOUR_PIXEL_ID_HERE (2×). (2) /api/capi endpoint for CAPI forwarding. Events: PageView+ViewContent (load), Lead (CTA click). -->
