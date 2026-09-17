@@ -27,18 +27,45 @@
     .brand-name{font-size:14px;font-weight:700;color:var(--white);line-height:1.15}
     .brand-name small{display:block;font-size:10px;color:var(--gold);font-weight:500;letter-spacing:.8px;text-transform:uppercase}
 
-    .hero{background:linear-gradient(135deg,var(--navy),var(--navy-lt));padding:22px 18px 26px;color:var(--white);position:relative;overflow:hidden}
-    .hero::after{content:"";position:absolute;top:-60px;right:-60px;width:180px;height:180px;background:radial-gradient(circle,rgba(245,158,11,.18),transparent 70%);pointer-events:none}
-    .hero-row{display:flex;align-items:center;gap:16px}
-    .hero-avatar{width:78px;height:78px;border-radius:50%;overflow:hidden;border:3px solid var(--gold);flex-shrink:0;background:var(--navy-lt);box-shadow:0 4px 14px rgba(0,0,0,.3)}
-    .hero-avatar img{width:100%;height:100%;object-fit:cover}
-    .hero-body{flex:1;min-width:0}
-    .hero-label{font-size:10px;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
-    .hero-name{font-size:19px;font-weight:700;letter-spacing:-.3px;line-height:1.2;margin-bottom:3px}
-    .hero-role{font-size:12.5px;color:rgba(255,255,255,.7);margin-bottom:10px}
-    .hero-tags{display:flex;gap:6px;flex-wrap:wrap}
-    .hero-tag{font-size:10.5px;color:rgba(255,255,255,.9);background:rgba(255,255,255,.1);padding:3px 9px;border-radius:11px;border:1px solid rgba(255,255,255,.15)}
-    .hero-tag b{color:var(--gold);font-weight:700}
+    .hero{background:var(--white);padding:18px;border-bottom:1px solid var(--rule)}
+    .hero-grid{display:grid;grid-template-columns:148px 1fr;gap:16px;align-items:start}
+    .hero-gallery{position:relative}
+    .hero-main-img{width:148px;aspect-ratio:5/7;border-radius:10px;overflow:hidden;background:linear-gradient(135deg,#f8fafc,#e2e8f0);box-shadow:0 2px 10px rgba(0,0,0,.08);margin:0 auto;position:relative}
+    .hero-main-img img{width:100%;height:100%;object-fit:contain}
+    .discount-badge{position:absolute;top:6px;left:6px;background:var(--save);color:var(--white);font-size:10px;font-weight:800;padding:3px 7px;border-radius:5px;letter-spacing:.3px;box-shadow:0 1px 3px rgba(0,0,0,.2)}
+    .hero-thumbs{display:flex;gap:5px;justify-content:center;margin-top:8px}
+    .hero-thumb{width:32px;height:44px;border-radius:5px;overflow:hidden;background:var(--bg);border:1.5px solid var(--rule);opacity:.7;transition:opacity .15s;cursor:pointer}
+    .hero-thumb.active{border-color:var(--gold);opacity:1}
+    .hero-thumb img{width:100%;height:100%;object-fit:cover}
+    .hero-info{min-width:0}
+    .hero-brand-line{font-size:10.5px;color:var(--txt3);margin-bottom:3px;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+    .hero-title{font-size:15px;font-weight:700;color:var(--text);line-height:1.35;letter-spacing:-.2px;margin-bottom:5px}
+    .hero-rating{display:flex;align-items:center;gap:5px;margin-bottom:5px;flex-wrap:wrap}
+    .hero-stars{display:inline-flex;gap:1px}
+    .hero-star{color:var(--star);font-size:14px;line-height:1}
+    .hero-star.dim{color:#d1d5db}
+    .hero-rating-txt{font-size:12px;color:var(--txt2)}
+    .hero-rating-txt b{color:var(--text)}
+    .hero-format{font-size:10.5px;color:var(--txt3);display:inline-block;padding:2px 8px;background:var(--bg);border-radius:4px;margin-bottom:10px;border:1px solid var(--rule)}
+    .hero-price-block{background:var(--bg);border:1px solid var(--rule);border-radius:8px;padding:10px 12px;margin-bottom:10px}
+    .hero-price-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:3px}
+    .hero-price-now{font-size:24px;font-weight:800;color:var(--text);letter-spacing:-.6px}
+    .hero-price-sym{font-size:14px;font-weight:700}
+    .hero-price-mrp{font-size:12px;color:var(--txt3)}
+    .hero-price-mrp s{text-decoration:line-through}
+    .hero-price-save{display:inline-block;background:var(--save-bg);color:var(--save);font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px}
+    .hero-you-save{font-size:11.5px;color:var(--green);font-weight:600}
+    .hero-delivery{font-size:11.5px;color:var(--txt3);margin-top:4px;line-height:1.4}
+    .hero-delivery b{color:var(--green)}
+    .hero-cta{width:100%;padding:14px;background:linear-gradient(135deg,#f59e0b,#fbbf24);color:var(--navy);font-size:15px;font-weight:800;border-radius:10px;text-align:center;box-shadow:0 3px 0 var(--gold-dk),0 4px 12px rgba(245,158,11,.3);letter-spacing:.2px;transition:transform .1s;margin-top:10px}
+    .hero-cta:active{transform:translateY(2px);box-shadow:0 1px 0 var(--gold-dk)}
+    .hero-author{display:flex;align-items:center;gap:10px;padding:12px;background:var(--bg);border:1px solid var(--rule);border-radius:8px;margin-top:12px}
+    .hero-author-img{width:42px;height:42px;border-radius:50%;overflow:hidden;border:2px solid var(--gold);flex-shrink:0;background:var(--navy-lt)}
+    .hero-author-img img{width:100%;height:100%;object-fit:cover}
+    .hero-author-name{font-size:13px;font-weight:700;color:var(--text)}
+    .hero-author-creds{font-size:10.5px;color:var(--txt3);margin-top:1px;line-height:1.4}
+    .hero-author-tags{display:flex;gap:4px;margin-top:5px;flex-wrap:wrap}
+    .hero-author-tag{font-size:9.5px;color:var(--gold-dk);background:var(--gold-sft);padding:2px 7px;border-radius:8px;font-weight:600}
 
     .tagline{padding:16px 18px;background:var(--white);border-bottom:1px solid var(--rule)}
     .tagline h1{font-size:13px;color:var(--txt2);font-weight:500;line-height:1.55}
@@ -119,14 +146,6 @@
     .quote-attr{margin-top:12px;font-style:normal;font-size:12px;color:var(--txt3)}
     .quote-attr b{color:var(--text)}
 
-    .cta{padding:20px 18px 24px;background:var(--white);border-bottom:1px solid var(--rule)}
-    .cta-card{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:2px solid var(--gold);border-radius:12px;padding:20px 18px;box-shadow:0 6px 20px rgba(245,158,11,.18)}
-    .cta-price{font-size:32px;font-weight:800;color:var(--text);text-align:center;letter-spacing:-1px;line-height:1;margin-bottom:4px}
-    .cta-price-sym{font-size:16px;font-weight:700}
-    .cta-save{text-align:center;font-size:13px;color:var(--save);font-weight:700;margin-bottom:16px}
-    .cta-btn{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:var(--gold);color:var(--navy);font-size:16px;font-weight:800;letter-spacing:.2px;padding:16px 20px;border-radius:10px;box-shadow:0 4px 0 var(--gold-dk),0 6px 16px rgba(245,158,11,.35);transition:transform .1s,box-shadow .1s;text-align:center}
-    .cta-btn:hover{background:#fbbf24}
-    .cta-btn:active{transform:translateY(2px);box-shadow:0 2px 0 var(--gold-dk),0 3px 8px rgba(245,158,11,.35)}
 
     .footer{padding:22px 18px 28px;text-align:center;background:var(--navy-dk);color:rgba(255,255,255,.7)}
     .footer-brand{font-size:14px;font-weight:700;color:var(--white);margin-bottom:8px}
@@ -192,13 +211,50 @@
   </header>
 
   <section class="hero anim" id="hero">
-    <div class="hero-row">
-      <div class="hero-avatar"><img src="assets/author-photo.png" alt="Dr. Manu Kaushal" loading="eager"></div>
-      <div class="hero-body">
-        <div class="hero-label">Author</div>
-        <div class="hero-name">Dr. Manu Kaushal</div>
-        <div class="hero-role">NEET &amp; JEE Chemistry Mentor</div>
-        <div class="hero-tags"><span class="hero-tag"><b>18+</b> yrs</span><span class="hero-tag"><b>18K+</b> students</span><span class="hero-tag">AIR <b>3,14,19</b></span></div>
+    <div class="hero-grid">
+      <div class="hero-gallery">
+        <div class="hero-main-img">
+          <img src="assets/book-cover.jpg" alt="Book cover" id="heroMainImg" loading="eager">
+          <div class="discount-badge">53% OFF</div>
+        </div>
+        <div class="hero-thumbs">
+          <div class="hero-thumb active" data-img="assets/book-cover.jpg"><img src="assets/book-cover.jpg" alt="Cover"></div>
+          <div class="hero-thumb" data-img="assets/book-cover.jpg"><img src="assets/book-cover.jpg" alt="Contents"></div>
+          <div class="hero-thumb" data-img="assets/book-cover.jpg"><img src="assets/book-cover.jpg" alt="Inside"></div>
+        </div>
+      </div>
+      <div class="hero-info">
+        <div class="hero-brand-line">Manu Kaushal Publications</div>
+        <div class="hero-title">Ace NEET 2026 &amp; JEE 2027 Organic Chemistry</div>
+        <div class="hero-rating">
+          <span class="hero-stars">
+            <span class="hero-star">★</span><span class="hero-star">★</span><span class="hero-star">★</span><span class="hero-star">★</span><span class="hero-star dim">★</span>
+          </span>
+          <span class="hero-rating-txt"><b>4.5</b> · 25 ratings</span>
+        </div>
+        <div class="hero-format">Perfect Paperback · First Edition</div>
+        <div class="hero-price-block">
+          <div class="hero-price-row">
+            <span class="hero-price-now"><span class="hero-price-sym">₹</span>1,889</span>
+            <span class="hero-price-mrp">MRP <s>₹3,999</s></span>
+            <span class="hero-price-save">53% off</span>
+          </div>
+          <div class="hero-you-save">You Save <b>₹2,110</b></div>
+          <div class="hero-delivery"><b>FREE delivery</b> in 2-3 days<br><b>7-Day Replacement</b> · <b>Secure Checkout</b></div>
+        </div>
+        <button class="hero-cta" id="ctaBtn">Buy on Amazon →</button>
+      </div>
+    </div>
+    <div class="hero-author">
+      <div class="hero-author-img"><img src="assets/author-photo.png" alt="Dr. Manu Kaushal" loading="eager"></div>
+      <div>
+        <div class="hero-author-name">Dr. Manu Kaushal</div>
+        <div class="hero-author-creds">NEET &amp; JEE Chemistry Mentor · Ex-Academic Dean at Narayana · Ex-Senior Faculty Aakash Delhi</div>
+        <div class="hero-author-tags">
+          <span class="hero-author-tag">18+ yrs</span>
+          <span class="hero-author-tag">18K+ students</span>
+          <span class="hero-author-tag">AIR 3,14,19</span>
+        </div>
       </div>
     </div>
   </section>
@@ -288,13 +344,7 @@
     </div>
   </section>
 
-  <section class="cta anim d6" id="ctaSection">
-    <div class="cta-card">
-      <div class="cta-price"><span class="cta-price-sym">₹</span>1,889</div>
-      <div class="cta-save">You Save ₹2,110 — 53% off MRP ₹3,999</div>
-      <button id="ctaBtn" class="cta-btn">Buy on Amazon <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-    </div>
-  </section>
+
 
   <footer class="footer">
     <div class="footer-brand">Manu Kaushal <span>Publications</span></div>
