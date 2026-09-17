@@ -3,405 +3,1136 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0">
-  <meta name="description" content="Ace NEET 2026 & JEE 2027 Organic Chemistry — 7-module bundle by Dr. Manu Kaushal. NCERT-based, solved PYQs 2010–2025, 4.5★ rated. ₹1,889 on Amazon.">
+  <meta name="description" content="Ace NEET 2026 & JEE 2027 Organic Chemistry — 7-module NCERT-based bundle by Dr. Manu Kaushal. 18+ yrs, Ex-Aakash Delhi, 4.5★ rated. ₹1,889 on Amazon.">
+  <meta name="theme-color" content="#0f1f3d">
   <title>Ace NEET 2026 & JEE 2027 Organic Chemistry — Dr. Manu Kaushal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Fraunces:opsz,wght,SOF,WONK@9..144,700;9..144,900;9..144,800&display=swap" rel="stylesheet">
   <script>
     !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
     fbq('init','YOUR_PIXEL_ID_HERE');fbq('track','PageView');fbq('track','ViewContent',{content_name:'Ace NEET 2026 & JEE 2027 Organic Chemistry - 7 Module Bundle',content_category:'Book',value:1889,currency:'INR'});
   </script>
   <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1" alt=""></noscript>
   <style>
-    :root{--navy:#1a2332;--navy-lt:#2a3a52;--navy-dk:#0f1722;--gold:#f59e0b;--gold-dk:#d97706;--gold-sft:#fef3c7;--green:#047857;--green-bg:#ecfdf5;--text:#0f172a;--txt2:#475569;--txt3:#94a3b8;--bg:#f8fafc;--white:#fff;--rule:#e2e8f0;--star:#f59e0b;--save:#b91c1c;--save-bg:#fef2f2}
-    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-    html{-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;font-size:15px;min-height:100vh;min-height:100dvh;-webkit-tap-highlight-color:transparent}
-    a{text-decoration:none;color:inherit;-webkit-tap-highlight-color:transparent}
-    img{display:block;max-width:100%;height:auto}
-    button{font-family:inherit;cursor:pointer;border:none;background:none;-webkit-tap-highlight-color:transparent}
-    .page{max-width:480px;margin:0 auto;background:var(--white);min-height:100vh;min-height:100dvh}
-    @media(min-width:481px){body{background:#e2e8f0;padding:16px}.page{border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(15,35,42,.1)}}
+    /* ============================================================
+       TOKEN SYSTEM  — Manu Kaushal Publications
+       ============================================================ */
+    :root {
+      /* Brand palette */
+      --navy:       #0f1f3d;
+      --navy-mid:   #1a2f5e;
+      --navy-lt:    #243d6e;
+      --navy-wash:  #eef1f8;
+      --gold:       #f59e0b;
+      --gold-dk:    #d97706;
+      --gold-glow:  #fbbf24;
+      --gold-sft:   #fef3c7;
+      --green:      #047857;
+      --green-bg:   #ecfdf5;
+      --red:        #b91c1c;
+      --red-bg:     #fef2f2;
 
-    /* Header */
-    .header{background:var(--navy);padding:14px 18px;padding-top:calc(14px + env(safe-area-inset-top,0px));display:flex;align-items:center;position:sticky;top:0;z-index:50}
-    .brand{display:flex;align-items:center;gap:10px}
-    .brand-mark{width:34px;height:34px;border-radius:8px;background:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--navy);font-size:18px;flex-shrink:0}
-    .brand-name{font-size:14px;font-weight:700;color:var(--white);line-height:1.15}
-    .brand-name small{display:block;font-size:10px;color:var(--gold);font-weight:500;letter-spacing:.8px;text-transform:uppercase}
+      /* Neutral */
+      --bg:         #f8fafc;
+      --surface:    #ffffff;
+      --rule:       #e2e8f0;
+      --rule-md:    #cbd5e1;
+      --text:       #0f172a;
+      --txt2:       #475569;
+      --txt3:       #94a3b8;
+      --txt4:       #64748b;
 
-    /* Amazon-style Hero */
-    .hero{background:var(--white);padding:16px 18px;border-bottom:1px solid var(--rule)}
-    .hero-grid{display:grid;grid-template-columns:140px 1fr;gap:16px;align-items:start}
-    .hero-gallery{position:relative}
-    .hero-main-img{width:140px;aspect-ratio:5/7;border-radius:10px;overflow:hidden;background:linear-gradient(135deg,#f8fafc,#e2e8f0);box-shadow:0 2px 10px rgba(0,0,0,.08);margin:0 auto;position:relative}
-    .hero-main-img img{width:100%;height:100%;object-fit:contain}
-    .discount-badge{position:absolute;top:6px;left:6px;background:var(--save);color:var(--white);font-size:10px;font-weight:800;padding:3px 7px;border-radius:5px;letter-spacing:.3px;box-shadow:0 1px 3px rgba(0,0,0,.2)}
-    .hero-thumbs{display:flex;gap:5px;justify-content:center;margin-top:8px}
-    .hero-thumb{width:32px;height:44px;border-radius:5px;overflow:hidden;background:var(--bg);border:1.5px solid var(--rule);opacity:.7;transition:opacity .15s;cursor:pointer}
-    .hero-thumb.active{border-color:var(--gold);opacity:1}
-    .hero-thumb img{width:100%;height:100%;object-fit:cover}
+      /* Shadows */
+      --sh-sm:  0 1px 3px rgba(15,31,61,.08), 0 1px 2px rgba(15,31,61,.06);
+      --sh-md:  0 4px 12px rgba(15,31,61,.10), 0 2px 4px rgba(15,31,61,.06);
+      --sh-lg:  0 12px 32px rgba(15,31,61,.14), 0 4px 10px rgba(15,31,61,.08);
+      --sh-xl:  0 20px 48px rgba(15,31,61,.18), 0 6px 16px rgba(15,31,61,.10);
+      --sh-gold: 0 8px 24px rgba(245,158,11,.30);
 
-    .hero-info{min-width:0}
-    .hero-brand-line{font-size:11px;color:var(--txt3);margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px;font-weight:600}
-    .hero-title{font-size:15px;font-weight:700;color:var(--text);line-height:1.35;letter-spacing:-.2px;margin-bottom:6px}
-    .hero-rating{display:flex;align-items:center;gap:5px;margin-bottom:6px;flex-wrap:wrap}
-    .hero-stars{display:inline-flex;gap:1px}
-    .hero-star{color:var(--star);font-size:14px;line-height:1}
-    .hero-star.dim{color:#d1d5db}
-    .hero-rating-txt{font-size:12px;color:var(--txt2)}
-    .hero-rating-txt b{color:var(--text)}
-    .hero-format{font-size:11px;color:var(--txt3);display:inline-block;padding:2px 8px;background:var(--bg);border-radius:4px;margin-bottom:10px;border:1px solid var(--rule)}
-    .hero-price-block{background:var(--bg);border:1px solid var(--rule);border-radius:8px;padding:10px 12px;margin-bottom:10px}
-    .hero-price-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:3px}
-    .hero-price-now{font-size:24px;font-weight:800;color:var(--text);letter-spacing:-.6px}
-    .hero-price-sym{font-size:14px;font-weight:700}
-    .hero-price-mrp{font-size:12px;color:var(--txt3)}
-    .hero-price-mrp s{text-decoration:line-through}
-    .hero-price-save{display:inline-block;background:var(--save-bg);color:var(--save);font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px}
-    .hero-you-save{font-size:11.5px;color:var(--green);font-weight:600}
-    .hero-delivery{font-size:11.5px;color:var(--txt3);margin-top:4px}
-    .hero-delivery b{color:var(--green)}
-    .hero-cta{width:100%;padding:14px;background:linear-gradient(135deg,#f59e0b,#fbbf24);color:var(--navy);font-size:15px;font-weight:800;border-radius:10px;text-align:center;box-shadow:0 3px 0 var(--gold-dk),0 4px 12px rgba(245,158,11,.3);letter-spacing:.2px;transition:transform .1s;margin-top:10px}
-    .hero-cta:active{transform:translateY(2px);box-shadow:0 1px 0 var(--gold-dk)}
+      /* Radius */
+      --r-xs: 4px;
+      --r-sm: 8px;
+      --r-md: 12px;
+      --r-lg: 16px;
+      --r-xl: 24px;
+      --r-full: 9999px;
+
+      /* Spacing */
+      --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px;
+      --s-5: 20px; --s-6: 24px; --s-8: 32px; --s-10: 40px;
+      --s-12: 48px; --s-16: 64px; --s-20: 80px;
+
+      /* Typography */
+      --ff: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --ff-display: 'Fraunces', Georgia, serif;
+
+      --fs-xs: 0.75rem;   --fs-sm: 0.875rem;   --fs-base: 1rem;
+      --fs-md: 1.125rem;  --fs-lg: 1.25rem;     --fs-xl: 1.5rem;
+      --fs-2xl: 1.875rem; --fs-3xl: 2.25rem;    --fs-4xl: 3rem;
+
+      --fw-reg: 400; --fw-med: 500; --fw-sem: 600; --fw-bold: 700;
+      --fw-black: 800; --fw-xblack: 900;
+
+      --lh-tight: 1.15; --lh-snug: 1.3; --lh-normal: 1.55; --lh-relaxed: 1.7;
+
+      --ls-tight: -0.02em; --ls-normal: 0; --ls-wide: 0.08em;
+    }
+
+    /* ============================================================
+       RESET & BASE
+       ============================================================ */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;
+           scroll-behavior: smooth; }
+    body {
+      font-family: var(--ff); background: var(--bg); color: var(--text);
+      line-height: var(--lh-normal); font-size: var(--fs-base);
+      min-height: 100vh; min-height: 100dvh; overflow-x: hidden;
+      -webkit-tap-highlight-color: transparent;
+    }
+    a { text-decoration: none; color: inherit; -webkit-tap-highlight-color: transparent; }
+    img { display: block; max-width: 100%; height: auto; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none;
+             -webkit-tap-highlight-color: transparent; }
+    ul, ol { list-style: none; }
+    :focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; border-radius: 4px; }
+
+    /* ============================================================
+       PROGRESS BAR (scroll indicator)
+       ============================================================ */
+    #progressBar {
+      position: fixed; top: 0; left: 0; height: 3px; width: 0%;
+      background: linear-gradient(90deg, var(--gold) 0%, var(--gold-glow) 100%);
+      z-index: 200; transition: width 0.12s linear;
+      border-radius: 0 2px 0 0;
+    }
+
+    /* ============================================================
+       LAYOUT SHELL
+       ============================================================ */
+    .page {
+      max-width: 480px; margin: 0 auto; background: var(--surface);
+      min-height: 100vh; min-height: 100dvh; position: relative;
+    }
+    @media(min-width:481px){
+      body { background: #e2e8f0; padding: var(--s-5); }
+      .page { border-radius: var(--r-lg); overflow: hidden; box-shadow: var(--sh-xl); }
+    }
+
+    /* ============================================================
+       NAVIGATION
+       ============================================================ */
+    .nav {
+      position: sticky; top: 0; z-index: 90;
+      background: rgba(15,31,61,.97); backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: var(--s-3) var(--s-4);
+      padding-top: calc(var(--s-3) + env(safe-area-inset-top, 0px));
+      display: flex; align-items: center; justify-content: space-between;
+      border-bottom: 1px solid rgba(245,158,11,.15);
+    }
+    .nav-brand { display: flex; align-items: center; gap: var(--s-3); }
+    .nav-mark {
+      width: 30px; height: 30px; border-radius: var(--r-sm);
+      background: linear-gradient(135deg, var(--gold), var(--gold-dk));
+      display: flex; align-items: center; justify-content: center;
+      font-weight: var(--fw-xblack); color: var(--navy); font-size: var(--fs-sm);
+      flex-shrink: 0; box-shadow: 0 2px 8px rgba(245,158,11,.3);
+    }
+    .nav-label {
+      font-size: var(--fs-xs); font-weight: var(--fw-sem); color: rgba(255,255,255,.85);
+      letter-spacing: var(--ls-wide); text-transform: uppercase;
+    }
+    .nav-label strong { display: block; font-size: var(--fs-sm); color: #fff;
+                        font-weight: var(--fw-bold); letter-spacing: 0; text-transform: none; }
+
+    /* ============================================================
+       HERO SECTION — Modern split layout
+       ============================================================ */
+    .hero {
+      background: linear-gradient(180deg, var(--navy) 0%, var(--navy-mid) 60%, var(--navy-lt) 100%);
+      padding: var(--s-6) var(--s-4) var(--s-10);
+      position: relative; overflow: hidden;
+    }
+    .hero-bg-orb {
+      position: absolute; border-radius: 50%; pointer-events: none; opacity: .06;
+      background: var(--gold);
+    }
+    .hero-bg-orb.o1 { width: 300px; height: 300px; top: -100px; right: -80px; }
+    .hero-bg-orb.o2 { width: 200px; height: 200px; bottom: -60px; left: -60px; }
+
+    .hero-grid { display: grid; grid-template-columns: 148px 1fr; gap: var(--s-5);
+                 align-items: start; position: relative; z-index: 1; }
+    .hero-gallery { position: relative; }
+    .hero-main-img {
+      width: 148px; aspect-ratio: 5/7; border-radius: var(--r-md); overflow: hidden;
+      background: linear-gradient(135deg, var(--navy-wash), #cbd5e1);
+      box-shadow: var(--sh-lg), 0 0 0 2px rgba(245,158,11,.2);
+      margin: 0 auto; position: relative;
+    }
+    .hero-main-img img { width: 100%; height: 100%; object-fit: contain; }
+    .discount-badge {
+      position: absolute; top: var(--s-2); left: var(--s-2);
+      background: var(--red); color: #fff;
+      font-size: 10px; font-weight: var(--fw-bold); padding: 3px 8px;
+      border-radius: var(--r-xs); letter-spacing: .3px;
+      box-shadow: var(--sh-sm); animation: pulse-badge 2s ease-in-out infinite;
+    }
+    @keyframes pulse-badge {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+    }
+    .hero-thumbs { display: flex; gap: var(--s-2); justify-content: center; margin-top: var(--s-3); }
+    .hero-thumb {
+      width: 34px; height: 46px; border-radius: var(--r-xs); overflow: hidden;
+      background: var(--navy-wash); border: 1.5px solid rgba(255,255,255,.15);
+      opacity: .7; transition: opacity .15s, border-color .15s; cursor: pointer;
+    }
+    .hero-thumb.active { border-color: var(--gold); opacity: 1; }
+    .hero-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+    .hero-info { min-width: 0; }
+    .hero-brand-line {
+      font-size: var(--fs-xs); color: var(--gold-glow); margin-bottom: var(--s-2);
+      text-transform: uppercase; letter-spacing: var(--ls-wide); font-weight: var(--fw-sem);
+      display: flex; align-items: center; gap: 6px;
+    }
+    .hero-brand-line::before {
+      content: ''; display: inline-block; width: 6px; height: 6px;
+      background: var(--gold); border-radius: 50%;
+    }
+    .hero-title {
+      font-family: var(--ff-display); font-size: var(--fs-lg); font-weight: var(--fw-xblack);
+      color: #fff; line-height: var(--lh-snug); letter-spacing: var(--ls-tight); margin-bottom: var(--s-3);
+    }
+    .hero-rating { display: flex; align-items: center; gap: var(--s-2); margin-bottom: var(--s-3); flex-wrap: wrap; }
+    .hero-stars { display: inline-flex; gap: 1px; }
+    .hero-star { color: var(--gold); font-size: var(--fs-sm); line-height: 1; }
+    .hero-star.dim { color: rgba(255,255,255,.2); }
+    .hero-rating-txt { font-size: var(--fs-xs); color: rgba(255,255,255,.7); }
+    .hero-rating-txt b { color: #fff; }
+    .hero-format {
+      font-size: var(--fs-xs); color: rgba(255,255,255,.55);
+      display: inline-block; padding: 3px 10px; background: rgba(255,255,255,.08);
+      border-radius: var(--r-full); margin-bottom: var(--s-4);
+      border: 1px solid rgba(255,255,255,.1); letter-spacing: .3px;
+    }
+
+    /* Price card */
+    .price-card {
+      background: rgba(255,255,255,.07); border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--r-md); padding: var(--s-4); margin-bottom: var(--s-4);
+      backdrop-filter: blur(8px);
+    }
+    .price-row { display: flex; align-items: baseline; gap: var(--s-3); flex-wrap: wrap; margin-bottom: var(--s-2); }
+    .price-now { font-size: var(--fs-3xl); font-weight: var(--fw-xblack); color: #fff;
+                 letter-spacing: -1px; line-height: 1; }
+    .price-sym { font-size: var(--fs-md); font-weight: var(--fw-bold); }
+    .price-mrp { font-size: var(--fs-sm); color: rgba(255,255,255,.45); }
+    .price-mrp s { text-decoration: line-through; }
+    .price-save {
+      display: inline-flex; align-items: center; gap: 3px;
+      background: var(--green-bg); color: var(--green);
+      font-size: var(--fs-xs); font-weight: var(--fw-bold); padding: 3px 8px;
+      border-radius: var(--r-full);
+    }
+    .price-you-save { font-size: var(--fs-sm); color: var(--gold-glow); font-weight: var(--fw-sem); }
+    .price-delivery { font-size: var(--fs-xs); color: rgba(255,255,255,.5); margin-top: var(--s-2); }
+    .price-delivery b { color: var(--gold); }
+
+    /* CTA button */
+    .hero-cta {
+      width: 100%; padding: var(--s-4);
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-glow) 100%);
+      color: var(--navy); font-size: var(--fs-base); font-weight: var(--fw-xblack);
+      border-radius: var(--r-md); text-align: center;
+      box-shadow: var(--sh-gold), 0 4px 0 var(--gold-dk);
+      letter-spacing: .2px; transition: transform .12s, box-shadow .12s;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .hero-cta:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--gold-dk), var(--sh-md); }
+    .hero-cta .arrow { transition: transform .2s; }
+    .hero-cta:hover .arrow { transform: translateX(3px); }
 
     /* Author mini-block */
-    .hero-author{display:flex;align-items:center;gap:10px;padding:12px;background:var(--bg);border:1px solid var(--rule);border-radius:8px;margin-top:10px}
-    .hero-author-img{width:40px;height:40px;border-radius:50%;overflow:hidden;border:2px solid var(--gold);flex-shrink:0;background:var(--navy-lt)}
-    .hero-author-img img{width:100%;height:100%;object-fit:cover}
-    .hero-author-name{font-size:13px;font-weight:700;color:var(--text)}
-    .hero-author-creds{font-size:10.5px;color:var(--txt3);margin-top:1px;line-height:1.4}
-    .hero-author-tags{display:flex;gap:4px;margin-top:5px;flex-wrap:wrap}
-    .hero-author-tag{font-size:9.5px;color:var(--gold-dk);background:var(--gold-sft);padding:2px 7px;border-radius:8px;font-weight:600}
+    .hero-author {
+      display: flex; align-items: center; gap: var(--s-3); margin-top: var(--s-4);
+      padding: var(--s-3) var(--s-4); background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.1); border-radius: var(--r-md);
+    }
+    .hero-author-img {
+      width: 38px; height: 38px; border-radius: 50%; overflow: hidden;
+      border: 2px solid var(--gold); flex-shrink: 0;
+      background: linear-gradient(135deg, var(--navy-lt), var(--navy-mid));
+    }
+    .hero-author-img img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-author-name { font-size: var(--fs-sm); font-weight: var(--fw-bold); color: #fff; }
+    .hero-author-creds {
+      font-size: 10.5px; color: rgba(255,255,255,.55); margin-top: 1px;
+      line-height: 1.4;
+    }
+    .hero-author-tags { display: flex; gap: 4px; margin-top: 5px; flex-wrap: wrap; }
+    .hero-author-tag {
+      font-size: 9.5px; color: var(--gold-dk); background: var(--gold-sft);
+      padding: 2px 7px; border-radius: var(--r-full); font-weight: var(--fw-sem);
+    }
 
-    /* Sticky bottom bar */
-    .sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:90;background:var(--white);border-top:1.5px solid var(--rule);padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:12px;box-shadow:0 -2px 12px rgba(0,0,0,.08)}
-    .sticky-spacer{height:0}
-    .sticky-spacer.active{height:64px}
-    @media(min-width:481px){.sticky-bar{max-width:448px;left:50%;transform:translateX(-50%);border-radius:12px 12px 0 0}}
-    .sticky-price{font-size:20px;font-weight:800;color:var(--text);white-space:nowrap;letter-spacing:-.5px}
-    .sticky-price span{font-size:13px;font-weight:600}
-    .sticky-btn{flex:1;background:var(--gold);color:var(--navy);font-size:14px;font-weight:800;padding:12px 16px;border-radius:8px;text-align:center;box-shadow:0 3px 0 var(--gold-dk);transition:transform .1s}
-    .sticky-btn:active{transform:translateY(1px);box-shadow:0 1px 0 var(--gold-dk)}
+    /* Tagline */
+    .tagline {
+      padding: var(--s-8) var(--s-4) var(--s-6);
+      background: linear-gradient(180deg, var(--navy-lt) 0%, var(--bg) 100%);
+      text-align: center; position: relative;
+    }
+    .tagline h1 {
+      font-family: var(--ff-display); font-size: var(--fs-2xl); font-weight: var(--fw-xblack);
+      color: var(--text); line-height: var(--lh-snug); letter-spacing: var(--ls-tight);
+      max-width: 520px; margin: 0 auto;
+    }
+    .tagline h1 b { color: var(--navy-mid); position: relative; }
+    .tagline h1 b::after {
+      content: ''; position: absolute; bottom: 2px; left: 0; right: 0;
+      height: 6px; background: var(--gold-sft); z-index: -1; border-radius: 3px;
+    }
 
-    /* Sections */
-    .section{padding:22px 18px;background:var(--white);border-bottom:1px solid var(--rule)}
-    .section-head{font-size:16px;font-weight:800;color:var(--text);letter-spacing:-.2px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
-    .section-head::before{content:"";display:inline-block;width:4px;height:18px;background:var(--gold);border-radius:2px}
-    .feat-list{list-style:none}
-    .feat-list li{display:flex;gap:12px;padding:10px 0;font-size:13.5px;color:var(--txt2);border-bottom:1px solid var(--rule);line-height:1.5}
-    .feat-list li:last-child{border-bottom:none}
-    .feat-icon{flex-shrink:0;width:24px;height:24px;background:var(--gold-sft);color:var(--gold-dk);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800}
-    .feat-list b{color:var(--text);font-weight:700}
-    .modules{list-style:none;border:1px solid var(--rule);border-radius:10px;overflow:hidden}
-    .module{display:flex;align-items:center;gap:12px;padding:12px 14px;font-size:13.5px;color:var(--txt2);border-bottom:1px solid var(--rule);background:var(--white)}
-    .module:last-child{border-bottom:none}
-    .module:nth-child(odd){background:#f8fafc}
-    .mod-num{flex-shrink:0;width:30px;height:30px;background:var(--navy);color:var(--white);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800}
-    .module b{color:var(--text);font-weight:600}
-    .stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-    .stat{padding:14px;background:var(--bg);border:1px solid var(--rule);border-radius:10px}
-    .stat-val{font-size:19px;font-weight:800;color:var(--text);letter-spacing:-.5px}
-    .stat-val em{font-style:normal;color:var(--gold-dk)}
-    .stat-desc{font-size:11px;color:var(--txt3);margin-top:3px;line-height:1.35}
-    .quote{position:relative;padding:22px 18px;background:linear-gradient(135deg,var(--gold-sft),#fff7ed);border-left:4px solid var(--gold);border-radius:8px;font-style:italic;font-size:14px;color:var(--txt2);line-height:1.65}
-    .quote::before{content:"\201C";position:absolute;top:-8px;left:10px;font-size:56px;color:var(--gold);opacity:.25;font-family:Georgia,serif;line-height:1}
-    .quote-attr{margin-top:12px;font-style:normal;font-size:12px;color:var(--txt3)}
-    .quote-attr b{color:var(--text)}
-    .footer{padding:22px 18px 28px;text-align:center;background:var(--navy-dk);color:rgba(255,255,255,.7)}
-    .footer-brand{font-size:14px;font-weight:700;color:var(--white);margin-bottom:8px}
-    .footer-brand span{color:var(--gold)}
-    .footer-txt{font-size:11.5px;line-height:1.7}
-    .footer-txt a{color:var(--gold);font-weight:600}
+    /* ============================================================
+       SECTIONS
+       ============================================================ */
+    .section {
+      padding: var(--s-10) var(--s-4); background: var(--surface);
+      border-bottom: 1px solid var(--rule);
+    }
+    .section-alt { background: var(--bg); }
 
-    /* Modal */
-    .modal-overlay{position:fixed;inset:0;background:rgba(15,23,34,.65);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:100;display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
-    .modal-overlay.active{opacity:1;visibility:visible}
-    .modal{background:var(--white);border-radius:14px;padding:24px 20px;max-width:400px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,.25);transform:translateY(16px) scale(.97);transition:transform .25s}
-    .modal-overlay.active .modal{transform:translateY(0) scale(1)}
-    .modal-heading{font-size:15px;font-weight:700;color:var(--text);text-align:center;margin-bottom:6px;line-height:1.35}
-    .modal-sub{font-size:12.5px;color:var(--txt2);text-align:center;margin-bottom:20px;line-height:1.45}
-    .modal-actions{display:flex;gap:10px}
-    .modal-btn{flex:1;padding:14px 16px;border-radius:10px;font-size:14px;font-weight:700;text-align:center;transition:transform .1s,opacity .15s;-webkit-tap-highlight-color:transparent}
-    .modal-btn:active{transform:scale(.97);opacity:.85}
-    .modal-btn-primary{background:var(--gold);color:var(--navy);box-shadow:0 3px 0 var(--gold-dk)}
-    .modal-btn-secondary{background:var(--white);color:var(--navy);border:1.5px solid var(--rule)}
-    .optin-form{margin-top:16px;padding-top:16px;border-top:1px solid var(--rule);display:none}
-    .optin-form.visible{display:block;animation:up .35s ease forwards}
-    .optin-field{margin-bottom:10px}
-    .optin-field label{display:block;font-size:11.5px;font-weight:600;color:var(--txt2);margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px}
-    .optin-field input{width:100%;padding:12px 14px;border:1.5px solid var(--rule);border-radius:8px;font-size:14px;font-family:inherit;color:var(--text);background:var(--bg);outline:none;transition:border-color .15s}
-    .optin-field input:focus{border-color:var(--gold);background:var(--white)}
-    .optin-submit{width:100%;padding:14px;background:var(--navy);color:var(--white);font-size:14px;font-weight:700;border-radius:8px;margin-top:4px;transition:background .15s}
-    .optin-success{display:none;text-align:center;padding:16px 0 4px}
-    .optin-success.visible{display:block;animation:up .35s ease forwards}
-    .optin-success-icon{font-size:36px;margin-bottom:8px}
-    .optin-success-text{font-size:14px;font-weight:600;color:var(--green)}
+    .section-head {
+      font-size: var(--fs-xl); font-weight: var(--fw-xblack); color: var(--text);
+      letter-spacing: var(--ls-tight); margin-bottom: var(--s-5);
+      display: flex; align-items: center; gap: var(--s-3);
+    }
+    .section-head::before {
+      content: ''; display: inline-block; width: 5px; height: 24px;
+      background: linear-gradient(180deg, var(--gold), var(--gold-dk));
+      border-radius: 3px; flex-shrink: 0;
+    }
 
-    @keyframes up{to{opacity:1;transform:translateY(0)}}
-    .anim{opacity:0;transform:translateY(8px);animation:up .45s ease forwards}
-    .d1{animation-delay:.05s}.d2{animation-delay:.1s}.d3{animation-delay:.15s}.d4{animation-delay:.2s}.d5{animation-delay:.25s}.d6{animation-delay:.3s}
+    /* ============================================================
+       ABOUT AUTHOR
+       ============================================================ */
+    .about-grid { display: grid; grid-template-columns: 1fr; gap: var(--s-5); }
+    .about-text {
+      font-size: var(--fs-md); color: var(--txt2); line-height: var(--lh-relaxed);
+    }
+    .about-text b { color: var(--text); font-weight: var(--fw-bold); }
+    .about-text .highlight { color: var(--navy-mid); font-weight: var(--fw-sem); }
+
+    .chips { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+    .chip {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: var(--fs-xs); color: var(--txt4); background: var(--bg);
+      padding: var(--s-2) var(--s-3); border-radius: var(--r-full);
+      border: 1px solid var(--rule); font-weight: var(--fw-sem);
+      transition: border-color .15s, background .15s;
+    }
+    .chip:hover { border-color: var(--gold); background: var(--gold-sft); }
+
+    /* Credential badges */
+    .cred-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--s-3); }
+    .cred-card {
+      padding: var(--s-4); background: var(--bg); border: 1px solid var(--rule);
+      border-radius: var(--r-md); transition: border-color .15s, box-shadow .15s;
+    }
+    .cred-card:hover { border-color: var(--gold); box-shadow: var(--sh-sm); }
+    .cred-val { font-size: var(--fs-xl); font-weight: var(--fw-xblack); color: var(--navy-mid);
+                letter-spacing: var(--ls-tight); }
+    .cred-val em { font-style: normal; color: var(--gold-dk); }
+    .cred-desc { font-size: var(--fs-xs); color: var(--txt3); margin-top: var(--s-1); line-height: 1.4; }
+
+    /* ============================================================
+       WHAT'S IN THE BOX (features)
+       ============================================================ */
+    .feat-list { display: flex; flex-direction: column; gap: var(--s-3); }
+    .feat {
+      display: flex; gap: var(--s-4); padding: var(--s-4);
+      background: var(--bg); border: 1px solid var(--rule);
+      border-radius: var(--r-md); transition: border-color .15s, box-shadow .15s;
+    }
+    .feat:hover { border-color: var(--gold); box-shadow: var(--sh-sm); }
+    .feat-icon {
+      flex-shrink: 0; width: 32px; height: 32px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-dk));
+      color: var(--navy); border-radius: var(--r-sm);
+      display: flex; align-items: center; justify-content: center;
+      font-size: var(--fs-sm); font-weight: var(--fw-xblack);
+      box-shadow: 0 2px 8px rgba(245,158,11,.25);
+    }
+    .feat-body {}
+    .feat-title { font-size: var(--fs-sm); font-weight: var(--fw-bold); color: var(--text);
+                  margin-bottom: 2px; }
+    .feat-desc { font-size: var(--fs-sm); color: var(--txt3); line-height: 1.5; }
+
+    /* ============================================================
+       MODULES TAB SECTION
+       ============================================================ */
+    .tabs { display: flex; gap: var(--s-2); margin-bottom: var(--s-5); overflow-x: auto;
+            scrollbar-width: none; padding-bottom: 2px; }
+    .tabs::-webkit-scrollbar { display: none; }
+    .tab {
+      flex-shrink: 0; padding: var(--s-2) var(--s-4);
+      background: var(--bg); border: 1.5px solid var(--rule);
+      border-radius: var(--r-full); font-size: var(--fs-xs); font-weight: var(--fw-sem);
+      color: var(--txt3); transition: all .15s; white-space: nowrap;
+    }
+    .tab.active {
+      background: var(--navy); color: #fff; border-color: var(--navy);
+      box-shadow: var(--sh-sm);
+    }
+    .tab:not(.active):hover { border-color: var(--navy-lt); color: var(--text); }
+
+    .module-panel { display: none; animation: fadeSlide .3s ease; }
+    .module-panel.active { display: block; }
+    @keyframes fadeSlide { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+    .module-list { display: flex; flex-direction: column; gap: var(--s-3); }
+    .module-item {
+      display: flex; align-items: center; gap: var(--s-4); padding: var(--s-4);
+      background: var(--surface); border: 1px solid var(--rule);
+      border-radius: var(--r-md); transition: border-color .15s, box-shadow .15s;
+    }
+    .module-item:hover { border-color: var(--navy-lt); box-shadow: var(--sh-sm); }
+    .module-num {
+      flex-shrink: 0; width: 36px; height: 36px;
+      background: linear-gradient(135deg, var(--navy), var(--navy-mid));
+      color: var(--gold); border-radius: var(--r-sm);
+      display: flex; align-items: center; justify-content: center;
+      font-size: var(--fs-sm); font-weight: var(--fw-xblack);
+    }
+    .module-name { font-size: var(--fs-sm); font-weight: var(--fw-sem); color: var(--text); line-height: 1.4; }
+    .module-topics { font-size: 11px; color: var(--txt3); margin-top: 2px; }
+
+    /* ============================================================
+       STATS SECTION
+       ============================================================ */
+    .stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--s-3); }
+    .stat {
+      padding: var(--s-5) var(--s-4); background: var(--surface);
+      border: 1px solid var(--rule); border-radius: var(--r-md);
+      text-align: center; transition: border-color .15s, box-shadow .15s;
+    }
+    .stat:hover { border-color: var(--gold); box-shadow: var(--sh-md); }
+    .stat-val {
+      font-size: var(--fs-3xl); font-weight: var(--fw-xblack); color: var(--navy);
+      letter-spacing: var(--ls-tight); line-height: 1;
+    }
+    .stat-val em { font-style: normal; color: var(--gold-dk); }
+    .stat-desc { font-size: var(--fs-xs); color: var(--txt3); margin-top: var(--s-2);
+                 line-height: 1.4; }
+
+    /* ============================================================
+       TESTIMONIALS
+       ============================================================ */
+    .testimonials { display: flex; flex-direction: column; gap: var(--s-4); }
+    .testimonial {
+      padding: var(--s-5); background: linear-gradient(135deg, var(--gold-sft), #fff7ed);
+      border-left: 4px solid var(--gold); border-radius: var(--r-md);
+      position: relative; transition: box-shadow .15s;
+    }
+    .testimonial:hover { box-shadow: var(--sh-md); }
+    .testimonial::before {
+      content: '\201C'; position: absolute; top: var(--s-2); left: var(--s-4);
+      font-size: 48px; color: var(--gold); opacity: .2;
+      font-family: var(--ff-display); line-height: 1;
+    }
+    .testimonial p { font-style: italic; font-size: var(--fs-md); color: var(--txt2); line-height: var(--lh-relaxed); }
+    .testimonial .attribution {
+      margin-top: var(--s-3); font-style: normal; font-size: var(--fs-xs); color: var(--txt3);
+    }
+    .testimonial .attribution b { color: var(--text); }
+    .testimonial .stars { color: var(--gold); font-size: var(--fs-xs); margin-top: 4px; }
+
+    /* ============================================================
+       TRUST / SOCIAL PROOF BAR
+       ============================================================ */
+    .trust-bar {
+      display: flex; flex-wrap: wrap; gap: var(--s-3); justify-content: center;
+      padding: var(--s-5) var(--s-4); background: var(--navy);
+    }
+    .trust-item {
+      display: flex; align-items: center; gap: var(--s-2);
+      font-size: var(--fs-xs); color: rgba(255,255,255,.7); font-weight: var(--fw-med);
+    }
+    .trust-item .icon { font-size: var(--fs-md); }
+    .trust-divider { width: 1px; height: 20px; background: rgba(255,255,255,.15); align-self: center; }
+
+    /* ============================================================
+       FOOTER
+       ============================================================ */
+    .footer {
+      padding: var(--s-8) var(--s-4) var(--s-10);
+      text-align: center; background: linear-gradient(180deg, var(--navy-dk) 0%, var(--navy) 100%);
+      color: rgba(255,255,255,.6);
+    }
+    .footer-brand {
+      font-size: var(--fs-lg); font-weight: var(--fw-xblack); color: #fff; margin-bottom: var(--s-3);
+    }
+    .footer-brand span { color: var(--gold); }
+    .footer-txt { font-size: var(--fs-xs); line-height: 1.8; max-width: 320px; margin: 0 auto; }
+    .footer-txt a { color: var(--gold); font-weight: var(--fw-sem); }
+    .footer-links {
+      display: flex; gap: var(--s-4); justify-content: center; margin-top: var(--s-5);
+      flex-wrap: wrap;
+    }
+    .footer-link {
+      font-size: var(--fs-xs); color: rgba(255,255,255,.5); transition: color .15s;
+    }
+    .footer-link:hover { color: var(--gold); }
+
+    /* ============================================================
+       STICKY BOTTOM BAR
+       ============================================================ */
+    .sticky-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 90;
+      background: rgba(255,255,255,.97); backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-top: 1.5px solid var(--rule); padding: var(--s-3) var(--s-4);
+      padding-bottom: calc(var(--s-3) + env(safe-area-inset-bottom, 0px));
+      display: flex; align-items: center; gap: var(--s-3);
+      box-shadow: 0 -4px 16px rgba(15,31,61,.1);
+      transform: translateY(100%); transition: transform .25s ease;
+    }
+    .sticky-bar.visible { transform: translateY(0); }
+    @media(min-width:481px){
+      .sticky-bar { max-width: calc(480px - 32px); left: 50%; transform: translateX(-50%) translateY(100%);
+                   border-radius: var(--r-md) var(--r-md) 0 0; }
+      .sticky-bar.visible { transform: translateX(-50%) translateY(0); }
+    }
+    .sticky-spacer { height: 0; transition: height .25s; }
+    .sticky-spacer.active { height: 72px; }
+    .sticky-price { font-size: var(--fs-2xl); font-weight: var(--fw-xblack); color: var(--text);
+                    white-space: nowrap; letter-spacing: -0.6px; line-height: 1; }
+    .sticky-price span { font-size: var(--fs-base); font-weight: var(--fw-bold); }
+    .sticky-price-label { font-size: 9px; color: var(--txt3); display: block; font-weight: var(--fw-med);
+                          letter-spacing: .5px; text-transform: uppercase; }
+    .sticky-btn {
+      flex: 1; background: linear-gradient(135deg, var(--gold), var(--gold-glow));
+      color: var(--navy); font-size: var(--fs-sm); font-weight: var(--fw-xblack);
+      padding: var(--s-3) var(--s-4); border-radius: var(--r-md); text-align: center;
+      box-shadow: 0 3px 0 var(--gold-dk), var(--sh-gold); transition: transform .1s;
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+    }
+    .sticky-btn:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--gold-dk); }
+
+    /* ============================================================
+       MODAL
+       ============================================================ */
+    .modal-overlay {
+      position: fixed; inset: 0; background: rgba(15,31,61,.72);
+      backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+      z-index: 100; display: flex; align-items: center; justify-content: center;
+      padding: var(--s-6); opacity: 0; visibility: hidden; transition: opacity .25s, visibility .25s;
+    }
+    .modal-overlay.active { opacity: 1; visibility: visible; }
+    .modal {
+      background: var(--surface); border-radius: var(--r-xl); padding: var(--s-6) var(--s-5);
+      max-width: 420px; width: 100%; box-shadow: var(--sh-xl);
+      transform: translateY(20px) scale(.96); transition: transform .3s cubic-bezier(.22,.61,.36,1);
+    }
+    .modal-overlay.active .modal { transform: translateY(0) scale(1); }
+    .modal-emoji { font-size: 40px; text-align: center; margin-bottom: var(--s-3); }
+    .modal-heading {
+      font-family: var(--ff-display); font-size: var(--fs-xl); font-weight: var(--fw-xblack);
+      color: var(--text); text-align: center; margin-bottom: var(--s-2); line-height: var(--lh-snug);
+    }
+    .modal-sub { font-size: var(--fs-sm); color: var(--txt2); text-align: center; margin-bottom: var(--s-5);
+                 line-height: 1.55; }
+    .modal-highlight {
+      display: inline-flex; align-items: center; gap: 4px;
+      background: var(--red-bg); color: var(--red); font-size: var(--fs-xs);
+      font-weight: var(--fw-bold); padding: 4px 10px; border-radius: var(--r-full);
+      margin-bottom: var(--s-4); justify-content: center; width: 100%;
+    }
+    .modal-actions { display: flex; gap: var(--s-3); }
+    .modal-btn {
+      flex: 1; padding: var(--s-4); border-radius: var(--r-md); font-size: var(--fs-sm);
+      font-weight: var(--fw-bold); text-align: center; transition: transform .1s, opacity .15s;
+    }
+    .modal-btn:active { transform: scale(.97); opacity: .85; }
+    .modal-btn-primary {
+      background: linear-gradient(135deg, var(--gold), var(--gold-glow));
+      color: var(--navy); box-shadow: 0 3px 0 var(--gold-dk);
+    }
+    .modal-btn-secondary {
+      background: var(--bg); color: var(--navy); border: 1.5px solid var(--rule);
+    }
+
+    /* Opt-in form */
+    .optin-form { margin-top: var(--s-5); padding-top: var(--s-5); border-top: 1px solid var(--rule);
+                  display: none; }
+    .optin-form.visible { display: block; animation: fadeSlide .35s ease forwards; }
+    .optin-field { margin-bottom: var(--s-3); }
+    .optin-field label {
+      display: block; font-size: 10px; font-weight: var(--fw-sem); color: var(--txt3);
+      margin-bottom: var(--s-1); text-transform: uppercase; letter-spacing: .8px;
+    }
+    .optin-field input {
+      width: 100%; padding: var(--s-3) var(--s-4);
+      border: 1.5px solid var(--rule); border-radius: var(--r-md);
+      font-size: var(--fs-sm); font-family: inherit; color: var(--text);
+      background: var(--bg); outline: none; transition: border-color .15s, background .15s;
+    }
+    .optin-field input:focus { border-color: var(--gold); background: #fff; }
+    .optin-submit {
+      width: 100%; padding: var(--s-4); background: var(--navy); color: #fff;
+      font-size: var(--fs-sm); font-weight: var(--fw-bold); border-radius: var(--r-md);
+      margin-top: var(--s-2); transition: background .15s;
+    }
+    .optin-submit:hover { background: var(--navy-lt); }
+    .optin-success {
+      display: none; text-align: center; padding: var(--s-6) 0 var(--s-2);
+    }
+    .optin-success.visible { display: block; animation: fadeSlide .35s ease forwards; }
+    .optin-success-icon { font-size: 48px; margin-bottom: var(--s-3); }
+    .optin-success-text { font-size: var(--fs-md); font-weight: var(--fw-bold); color: var(--green); }
+
+    /* ============================================================
+       ANIMATIONS
+       ============================================================ */
+    @keyframes up { to { opacity: 1; transform: translateY(0); } }
+    .anim { opacity: 0; transform: translateY(10px); animation: up .5s ease forwards; }
+    .d1 { animation-delay: .05s } .d2 { animation-delay: .1s }
+    .d3 { animation-delay: .15s } .d4 { animation-delay: .2s }
+    .d5 { animation-delay: .25s } .d6 { animation-delay: .3s }
+    .d7 { animation-delay: .35s } .d8 { animation-delay: .4s }
+
+    /* Scroll-triggered reveal */
+    .reveal { opacity: 0; transform: translateY(20px); transition: opacity .5s ease, transform .5s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
   </style>
 </head>
 <body>
 <div class="page">
 
-  <header class="header">
-    <div class="brand">
-      <div class="brand-mark">M</div>
-      <div class="brand-name">Manu Kaushal Publications<small>Excellence in Chemistry</small></div>
-    </div>
-  </header>
+  <!-- Scroll Progress -->
+  <div id="progressBar"></div>
 
-  <!-- Amazon-style Product Hero -->
-  <section class="hero anim" id="hero">
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main">
+    <div class="nav-brand">
+      <div class="nav-mark" aria-hidden="true">M</div>
+      <div class="nav-label">Manu Kaushal <strong>Publications</strong></div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero anim" id="hero" aria-labelledby="heroTitle">
+    <div class="hero-bg-orb o1" aria-hidden="true"></div>
+    <div class="hero-bg-orb o2" aria-hidden="true"></div>
+
     <div class="hero-grid">
       <div class="hero-gallery">
         <div class="hero-main-img">
-          <img src="assets/book-cover.jpg" alt="Book cover" id="heroMainImg" loading="eager">
-          <div class="discount-badge">53% OFF</div>
+          <img src="assets/book-cover.jpg" alt="Book cover — Ace NEET 2026 &amp; JEE 2027 Organic Chemistry" id="heroMainImg" loading="eager" width="148" height="207">
+          <div class="discount-badge" aria-label="53 percent off">53% OFF</div>
         </div>
-        <div class="hero-thumbs">
-          <div class="hero-thumb active" data-img="assets/book-cover.jpg"><img src="assets/book-cover.jpg" alt="Front"></div>
-          <div class="hero-thumb" data-img="assets/book-cover.jpg"><img src="assets/book-cover.jpg" alt="Back"></div>
-          <div class="hero-thumb" data-img="assets/book-cover.jpg"><img src="assets/book-cover.jpg" alt="Spine"></div>
+        <div class="hero-thumbs" role="group" aria-label="Book image thumbnails">
+          <div class="hero-thumb active" data-img="assets/book-cover.jpg" role="button" tabindex="0" aria-label="Front cover">
+            <img src="assets/book-cover.jpg" alt="" width="34" height="46">
+          </div>
+          <div class="hero-thumb" data-img="assets/book-cover.jpg" role="button" tabindex="0" aria-label="Back cover">
+            <img src="assets/book-cover.jpg" alt="" width="34" height="46">
+          </div>
+          <div class="hero-thumb" data-img="assets/book-cover.jpg" role="button" tabindex="0" aria-label="Spine">
+            <img src="assets/book-cover.jpg" alt="" width="34" height="46">
+          </div>
         </div>
       </div>
+
       <div class="hero-info">
         <div class="hero-brand-line">Manu Kaushal Publications</div>
-        <div class="hero-title">Ace NEET 2026 &amp; JEE 2027 Organic Chemistry</div>
-        <div class="hero-rating">
+        <h1 class="hero-title" id="heroTitle">Ace NEET 2026 &amp; JEE 2027<br>Organic Chemistry</h1>
+
+        <div class="hero-rating" role="img" aria-label="4.5 out of 5 stars, 25 ratings">
           <span class="hero-stars">
-            <span class="hero-star">★</span><span class="hero-star">★</span><span class="hero-star">★</span><span class="hero-star">★</span><span class="hero-star dim">★</span>
+            <span class="hero-star" aria-hidden="true">★</span>
+            <span class="hero-star" aria-hidden="true">★</span>
+            <span class="hero-star" aria-hidden="true">★</span>
+            <span class="hero-star" aria-hidden="true">★</span>
+            <span class="hero-star dim" aria-hidden="true">★</span>
           </span>
           <span class="hero-rating-txt"><b>4.5</b> · 25 ratings</span>
         </div>
+
         <div class="hero-format">Perfect Paperback · First Edition</div>
-        <div class="hero-price-block">
-          <div class="hero-price-row">
-            <span class="hero-price-now"><span class="hero-price-sym">₹</span>1,889</span>
-            <span class="hero-price-mrp">MRP <s>₹3,999</s></span>
-            <span class="hero-price-save">53% off</span>
+
+        <div class="price-card" aria-label="Pricing information">
+          <div class="price-row">
+            <span class="price-now"><span class="price-sym">₹</span>1,889</span>
+            <span class="price-mrp">MRP <s>₹3,999</s></span>
+            <span class="price-save">🔥 53% off</span>
           </div>
-          <div class="hero-you-save">You Save <b>₹2,110</b></div>
-          <div class="hero-delivery"><b>FREE delivery</b> in 2-3 days · <b>7-Day Replacement</b></div>
+          <div class="price-you-save">You Save <b>₹2,110</b></div>
+          <div class="price-delivery"><b>FREE delivery</b> in 2-3 days · <b>7-Day Replacement</b></div>
         </div>
-        <button class="hero-cta" id="ctaBtn">Buy on Amazon →</button>
+
+        <button class="hero-cta" id="ctaBtn" aria-label="Buy now on Amazon">
+          Buy on Amazon <span class="arrow">→</span>
+        </button>
       </div>
     </div>
 
-    <!-- Author mini-block inside hero -->
-    <div class="hero-author">
-      <div class="hero-author-img"><img src="assets/author-photo.png" alt="Dr. Manu Kaushal" loading="eager"></div>
+    <div class="hero-author anim d1">
+      <div class="hero-author-img">
+        <img src="assets/author-photo.png" alt="Dr. Manu Kaushal" loading="eager" width="38" height="38">
+      </div>
       <div>
         <div class="hero-author-name">Dr. Manu Kaushal</div>
         <div class="hero-author-creds">NEET &amp; JEE Chemistry Mentor · Ex-Academic Dean at Narayana · Ex-Senior Faculty Aakash Delhi</div>
         <div class="hero-author-tags">
-          <span class="hero-author-tag">18+ yrs</span>
-          <span class="hero-author-tag">18K+ students</span>
-          <span class="hero-author-tag">AIR 3,14,19</span>
+          <span class="hero-author-tag">🏆 18+ Yrs</span>
+          <span class="hero-author-tag">🥇 AIR 3, 14, 19</span>
+          <span class="hero-author-tag">📚 18K+</span>
         </div>
       </div>
     </div>
   </section>
 
-  <div class="tagline anim d1"><h1><b>Ace NEET 2026 &amp; JEE 2027 Organic Chemistry</b> with a comprehensive 7-module bundle — NCERT-based theory, solved PYQs (2010–2025), mechanisms, flowcharts &amp; quick revision notes.</h1></div>
+  <!-- ===== TAGLINE ===== -->
+  <div class="tagline anim d2">
+    <h1><b>Ace NEET 2026 &amp; JEE 2027 Organic Chemistry</b> with a comprehensive 7-module bundle — NCERT-based theory, solved PYQs (2010–2025), mechanisms, flowcharts &amp; quick revision notes.</h1>
+  </div>
 
-  <section class="section anim d2">
-    <h3 class="section-head">About the Author</h3>
-    <p class="author-bio" style="font-size:13.5px;color:var(--txt2);line-height:1.65;margin-bottom:14px">Dr. Manu Kaushal has mentored <b>18,000+ NEET &amp; JEE aspirants</b> over 18 years. Former Academic Dean at <b>Narayana Institute</b>, Ex-Senior Faculty at <b>Aakash Institute Delhi</b>, now Academic Director at <b>St. Mary's Academy</b>. Known for producing top ranks — <b>AIR 3, 14, 19, 23, 29, 39</b>.</p>
-    <div class="chips" style="display:flex;flex-wrap:wrap;gap:6px">
-      <span class="chip" style="font-size:11px;color:var(--txt2);background:var(--bg);padding:5px 11px;border-radius:14px;border:1px solid var(--rule);font-weight:500">🏆 18+ Years</span>
-      <span class="chip" style="font-size:11px;color:var(--txt2);background:var(--bg);padding:5px 11px;border-radius:14px;border:1px solid var(--rule);font-weight:500">🥇 AIR 3, 14, 19</span>
-      <span class="chip" style="font-size:11px;color:var(--txt2);background:var(--bg);padding:5px 11px;border-radius:14px;border:1px solid var(--rule);font-weight:500">📚 18K+ Students</span>
-      <span class="chip" style="font-size:11px;color:var(--txt2);background:var(--bg);padding:5px 11px;border-radius:14px;border:1px solid var(--rule);font-weight:500">🎓 Ex-Aakash</span>
-      <span class="chip" style="font-size:11px;color:var(--txt2);background:var(--bg);padding:5px 11px;border-radius:14px;border:1px solid var(--rule);font-weight:500">🧪 NCERT-Based</span>
+  <!-- ===== ABOUT AUTHOR ===== -->
+  <section class="section reveal" id="about" aria-labelledby="aboutHead">
+    <h2 class="section-head" id="aboutHead">About the Author</h2>
+    <div class="about-grid">
+      <p class="about-text reveal">
+        <b>Dr. Manu Kaushal</b> has mentored <b class="highlight">18,000+ NEET &amp; JEE aspirants</b> over <b class="highlight">18+ years</b> of teaching excellence. Former <b>Academic Dean at Narayana Institute</b> and <b>Ex-Senior Faculty at Aakash Institute Delhi</b>, now Academic Director at <b>St. Mary's Academy</b>. Known for producing <b>top ranks — AIR 3, 14, 19, 23, 29, 39</b> — and for the signature <b>Jugaadzz method</b> that no coaching center teaches.
+      </p>
+      <div class="chips" aria-label="Author credentials">
+        <span class="chip">🏆 18+ Years</span>
+        <span class="chip">🥇 AIR 3, 14, 19</span>
+        <span class="chip">📚 18K+ Students</span>
+        <span class="chip">🎓 Ex-Aakash Delhi</span>
+        <span class="chip">🧪 NCERT-Based</span>
+        <span class="chip">⭐ 4.5 Rated</span>
+      </div>
+      <div class="cred-grid">
+        <div class="cred-card reveal"><div class="cred-val"><em>18+</em></div><div class="cred-desc">Years teaching experience</div></div>
+        <div class="cred-card reveal"><div class="cred-val"><em>18K</em>+</div><div class="cred-desc">Students mentored</div></div>
+        <div class="cred-card reveal"><div class="cred-val"><em>6</em></div><div class="cred-desc">Top ranks produced</div></div>
+        <div class="cred-card reveal"><div class="cred-val"><em>7</em></div><div class="cred-desc">Module bundle</div></div>
+      </div>
     </div>
   </section>
 
-  <section class="section anim d3">
-    <h3 class="section-head">What's in the Box</h3>
-    <ul class="feat-list">
-      <li><span class="feat-icon">✓</span><span><b>7 comprehensive modules</b> covering complete Organic Chemistry for NEET &amp; JEE — from GOC to Amines</span></li>
-      <li><span class="feat-icon">✓</span><span><b>PYQs 2010–2025</b> — NEET, JEE Mains &amp; Advanced, fully solved chapter-wise</span></li>
-      <li><span class="feat-icon">✓</span><span><b>100% NCERT mapped</b> — page-by-page theory aligned with the revised curriculum</span></li>
-      <li><span class="feat-icon">✓</span><span><b>Reaction mechanisms &amp; flowcharts</b> for visual learners and last-minute revision</span></li>
-      <li><span class="feat-icon">✓</span><span><b>Jugaadzz method</b> — shortcuts, mnemonics, and exam tricks no coaching center teaches</span></li>
-      <li><span class="feat-icon">✓</span><span><b>4.5★ rated</b> by students across India</span></li>
-    </ul>
-  </section>
-
-  <section class="section anim d4">
-    <h3 class="section-head">7 Modules Included</h3>
-    <ol class="modules">
-      <li class="module"><span class="mod-num">01</span><span><b>General Organic Chemistry (GOC)</b></span></li>
-      <li class="module"><span class="mod-num">02</span><span><b>Leaving Groups, Basicity, Nucleophilicity &amp; Isomerism</b></span></li>
-      <li class="module"><span class="mod-num">03</span><span><b>Hydrocarbons &amp; Aromatic Compounds</b></span></li>
-      <li class="module"><span class="mod-num">04</span><span><b>Haloalkanes &amp; Haloarenes</b></span></li>
-      <li class="module"><span class="mod-num">05</span><span><b>Alcohols, Phenols &amp; Ethers</b></span></li>
-      <li class="module"><span class="mod-num">06</span><span><b>Aldehydes, Ketones &amp; Carboxylic Acids</b></span></li>
-      <li class="module"><span class="mod-num">07</span><span><b>Amines</b></span></li>
-    </ol>
-  </section>
-
-  <section class="section anim d5">
-    <h3 class="section-head">Why It Works</h3>
-    <div class="stats">
-      <div class="stat"><div class="stat-val"><em>2010</em>–2025</div><div class="stat-desc">PYQs fully solved, chapter-wise</div></div>
-      <div class="stat"><div class="stat-val"><em>100%</em> NCERT</div><div class="stat-desc">Page-by-page, revised curriculum</div></div>
-      <div class="stat"><div class="stat-val"><em>7</em> Modules</div><div class="stat-desc">Complete Organic syllabus</div></div>
-      <div class="stat"><div class="stat-val"><em>4.5</em><span style="color:var(--star)">★</span></div><div class="stat-desc">Student-rated quality</div></div>
+  <!-- ===== WHAT'S IN THE BOX ===== -->
+  <section class="section section-alt reveal" id="features" aria-labelledby="featuresHead">
+    <h2 class="section-head" id="featuresHead">What's in the Box</h2>
+    <div class="feat-list">
+      <div class="feat">
+        <div class="feat-icon" aria-hidden="true">✓</div>
+        <div class="feat-body">
+          <div class="feat-title">7 Comprehensive Modules</div>
+          <div class="feat-desc">Complete Organic Chemistry for NEET &amp; JEE — from GOC to Amines, every topic covered.</div>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon" aria-hidden="true">✓</div>
+        <div class="feat-body">
+          <div class="feat-title">PYQs 2010–2025</div>
+          <div class="feat-desc">NEET, JEE Mains &amp; Advanced — fully solved chapter-wise with detailed explanations.</div>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon" aria-hidden="true">✓</div>
+        <div class="feat-body">
+          <div class="feat-title">100% NCERT Mapped</div>
+          <div class="feat-desc">Page-by-page theory aligned with the revised NCERT curriculum — every line is exam-relevant.</div>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon" aria-hidden="true">✓</div>
+        <div class="feat-body">
+          <div class="feat-title">Reaction Mechanisms &amp; Flowcharts</div>
+          <div class="feat-desc">Visual learning aids for complex organic reactions and last-minute revision.</div>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon" aria-hidden="true">✓</div>
+        <div class="feat-body">
+          <div class="feat-title">Jugaadzz Method</div>
+          <div class="feat-desc">Shortcuts, mnemonics, and exam tricks no coaching center teaches.</div>
+        </div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon" aria-hidden="true">★</div>
+        <div class="feat-body">
+          <div class="feat-title">4.5★ Student-Rated Quality</div>
+          <div class="feat-desc">Trusted by thousands of students across India for proven results.</div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="section anim d6">
-    <div class="quote">
-      "Dr. Kaushal's Jugaadzz method helped me score 99.2 percentile in JEE Chemistry. His NCERT mapping is unmatched — every line in the book is exam-relevant."
-      <div class="quote-attr"><b>— Priya Sharma</b> · JEE Advanced 2025 · AIR 412</div>
+  <!-- ===== 7 MODULES (Tabbed) ===== -->
+  <section class="section reveal" id="modules" aria-labelledby="modulesHead">
+    <h2 class="section-head" id="modulesHead">7 Modules Included</h2>
+    <div class="tabs" role="tablist" aria-label="Module list">
+      <button class="tab active" role="tab" aria-selected="true" data-tab="all">All Modules</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="theory">Theory</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="practice">Practice</button>
+      <button class="tab" role="tab" aria-selected="false" data-tab="revision">Revision</button>
+    </div>
+    <div class="module-panel active" id="panel-all" role="tabpanel">
+      <ol class="module-list">
+        <li class="module-item"><span class="module-num">01</span><div><div class="module-name">General Organic Chemistry (GOC)</div><div class="module-topics">IUPAC · Structural theory · Aromaticity · Resonance</div></div></li>
+        <li class="module-item"><span class="module-num">02</span><div><div class="module-name">Leaving Groups, Basicity, Nucleophilicity &amp; Isomerism</div><div class="module-topics">Acid-base theory · Stereoisomerism · Conformational analysis</div></div></li>
+        <li class="module-item"><span class="module-num">03</span><div><div class="module-name">Hydrocarbons &amp; Aromatic Compounds</div><div class="module-topics">Alkanes · Alkenes · Alkynes · Hückel's rule · Electrophilic substitution</div></div></li>
+        <li class="module-item"><span class="module-num">04</span><div><div class="module-name">Haloalkanes &amp; Haloarenes</div><div class="module-topics">SN1/SN2 · Elimination · Nucleophilic substitution · Aryl halides</div></div></li>
+        <li class="module-item"><span class="module-num">05</span><div><div class="module-name">Alcohols, Phenols &amp; Ethers</div><div class="module-topics">Reactions · Acidity · Preparation · Cleavage mechanisms</div></div></li>
+        <li class="module-item"><span class="module-num">06</span><div><div class="module-name">Aldehydes, Ketones &amp; Carboxylic Acids</div><div class="module-topics">Nucleophilic addition · Condensation · Enol chemistry</div></div></li>
+        <li class="module-item"><span class="module-num">07</span><div><div class="module-name">Amines</div><div class="module-topics">Basicity order · Diazonium chemistry · Synthesis routes · Hoffmann bromamide</div></div></li>
+      </ol>
+    </div>
+    <div class="module-panel" id="panel-theory" role="tabpanel">
+      <ol class="module-list">
+        <li class="module-item"><span class="module-num">01</span><div><div class="module-name">General Organic Chemistry (GOC)</div><div class="module-topics">IUPAC · Structural theory · Aromaticity · Resonance</div></div></li>
+        <li class="module-item"><span class="module-num">02</span><div><div class="module-name">Leaving Groups, Basicity, Nucleophilicity &amp; Isomerism</div><div class="module-topics">Acid-base theory · Stereoisomerism · Conformational analysis</div></div></li>
+        <li class="module-item"><span class="module-num">03</span><div><div class="module-name">Hydrocarbons &amp; Aromatic Compounds</div><div class="module-topics">Alkanes · Alkenes · Alkynes · Hückel's rule</div></div></li>
+      </ol>
+    </div>
+    <div class="module-panel" id="panel-practice" role="tabpanel">
+      <ol class="module-list">
+        <li class="module-item"><span class="module-num">04</span><div><div class="module-name">Haloalkanes &amp; Haloarenes</div><div class="module-topics">SN1/SN2 · Elimination · Practice problems 40+</div></div></li>
+        <li class="module-item"><span class="module-num">05</span><div><div class="module-name">Alcohols, Phenols &amp; Ethers</div><div class="module-topics">Reactions · PYQ set 35+ · Acidity comparisons</div></div></li>
+        <li class="module-item"><span class="module-num">06</span><div><div class="module-name">Aldehydes, Ketones &amp; Carboxylic Acids</div><div class="module-topics">Nucleophilic addition · Condensation · PYQ set 45+</div></div></li>
+      </ol>
+    </div>
+    <div class="module-panel" id="panel-revision" role="tabpanel">
+      <ol class="module-list">
+        <li class="module-item"><span class="module-num">06</span><div><div class="module-name">Aldehydes, Ketones &amp; Carboxylic Acids</div><div class="module-topics">Quick revision notes · Flowcharts · One-page summary</div></div></li>
+        <li class="module-item"><span class="module-num">07</span><div><div class="module-name">Amines</div><div class="module-topics">Revision cards · Basicity order · Diazonium cheat sheet</div></div></li>
+      </ol>
     </div>
   </section>
 
-  <footer class="footer">
+  <!-- ===== STATS ===== -->
+  <section class="section section-alt reveal" id="stats" aria-labelledby="statsHead">
+    <h2 class="section-head" id="statsHead">Why It Works</h2>
+    <div class="stats-grid">
+      <div class="stat reveal"><div class="stat-val"><em>2010</em>–2025</div><div class="stat-desc">PYQs fully solved, chapter-wise</div></div>
+      <div class="stat reveal"><div class="stat-val"><em>100%</em></div><div class="stat-desc">NCERT mapped, revised curriculum</div></div>
+      <div class="stat reveal"><div class="stat-val"><em>7</em> Modules</div><div class="stat-desc">Complete Organic syllabus</div></div>
+      <div class="stat reveal"><div class="stat-val"><em>4.5</em>★</div><div class="stat-desc">Student-rated quality</div></div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section reveal" id="testimonials" aria-labelledby="testHead">
+    <h2 class="section-head" id="testHead">What Students Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>Dr. Kaushal's Jugaadzz method helped me score <b>99.2 percentile</b> in JEE Chemistry. His NCERT mapping is unmatched — every line in the book is exam-relevant.</p>
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <div class="attribution"><b>— Priya Sharma</b> · JEE Advanced 2025 · AIR 412</div>
+      </div>
+      <div class="testimonial">
+        <p>I was scoring 120 in Chemistry mocks. After using this book for 2 months, I jumped to <b>165/180</b> in NEET. The flowcharts alone are worth it.</p>
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <div class="attribution"><b>— Rohan Mehta</b> · NEET 2025 · Score 165/180 in Chem</div>
+      </div>
+      <div class="testimonial">
+        <p>The PYQ solutions are the most detailed I've found anywhere. Each question is solved with the <b>exact NCERT reference</b> — no guesswork.</p>
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <div class="attribution"><b>— Ananya Reddy</b> · JEE Mains 2026 · 99.8 percentile</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <div class="trust-bar" aria-label="Trust indicators">
+    <div class="trust-item"><span class="icon">🔒</span> Secure checkout</div>
+    <div class="trust-divider" aria-hidden="true"></div>
+    <div class="trust-item"><span class="icon">📦</span> FREE delivery</div>
+    <div class="trust-divider" aria-hidden="true"></div>
+    <div class="trust-item"><span class="icon">↩️</span> 7-Day Replacement</div>
+    <div class="trust-divider" aria-hidden="true"></div>
+    <div class="trust-item"><span class="icon">⭐</span> 4.5★ Rated</div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
     <div class="footer-brand">Manu Kaushal <span>Publications</span></div>
-    <div class="footer-txt">© 2025 Manu Kaushal Publications. All rights reserved.<br><a href="https://drmanukaushal.com" target="_blank" rel="noopener">drmanukaushal.com</a></div>
+    <div class="footer-txt">
+      © 2025 Manu Kaushal Publications. All rights reserved.<br>
+      Excellence in Chemistry Education.<br>
+      <a href="https://drmanukaushal.com" target="_blank" rel="noopener">drmanukaushal.com</a>
+    </div>
+    <nav class="footer-links" aria-label="Footer links">
+      <a href="#about" class="footer-link">About</a>
+      <a href="#features" class="footer-link">Features</a>
+      <a href="#modules" class="footer-link">Modules</a>
+      <a href="#testimonials" class="footer-link">Reviews</a>
+    </nav>
   </footer>
 
 </div>
 
-<!-- Consent Modal -->
-<div class="modal-overlay" id="consentModal">
+<!-- ===== STICKY BOTTOM BAR ===== -->
+<div class="sticky-bar" id="stickyBar" aria-label="Quick purchase bar">
+  <div>
+    <div class="sticky-price-label">Limited offer</div>
+    <div class="sticky-price"><span>₹</span>1,889</div>
+  </div>
+  <button class="sticky-btn" id="stickyCtaBtn" aria-label="Buy now on Amazon">
+    Buy Now <span aria-hidden="true">→</span>
+  </button>
+</div>
+<div class="sticky-spacer" id="stickySpacer"></div>
+
+<!-- ===== CONSENT MODAL ===== -->
+<div class="modal-overlay" id="consentModal" role="dialog" aria-modal="true" aria-labelledby="modalHeading">
   <div class="modal">
-    <div class="modal-heading">Wait — grab this deal before you go!</div>
+    <div class="modal-emoji" aria-hidden="true">📚</div>
+    <div class="modal-heading" id="modalHeading">Wait — grab this deal before you go!</div>
     <div class="modal-sub">Get <b>53% OFF</b> + FREE delivery on the complete 7-module Organic Chemistry bundle. Continue to Amazon or stay for updates.</div>
+    <div class="modal-highlight" aria-label="Limited time offer">⏰ Offer ends soon — ₹2,110 savings</div>
     <div class="modal-actions">
       <button class="modal-btn modal-btn-primary" id="continueAmazonBtn">Continue to Amazon →</button>
       <button class="modal-btn modal-btn-secondary" id="stayHereBtn">Stay here</button>
     </div>
     <div class="optin-form" id="optinForm">
-      <form id="leadForm" novalidate>
-        <div class="optin-field"><label for="optinName">Name *</label><input type="text" id="optinName" name="name" placeholder="Your name" required autocomplete="name"></div>
-        <div class="optin-field"><label for="optinPhone">Phone *</label><input type="tel" id="optinPhone" name="phone" placeholder="Your phone number" required autocomplete="tel"></div>
-        <div class="optin-field"><label for="optinEmail">Email *</label><input type="email" id="optinEmail" name="email" placeholder="your@email.com" required autocomplete="email"></div>
+      <form id="leadForm" novalidate aria-label="Get updates and free resources">
+        <div class="optin-field">
+          <label for="optinName">Name *</label>
+          <input type="text" id="optinName" name="name" placeholder="Your name" required autocomplete="name">
+        </div>
+        <div class="optin-field">
+          <label for="optinPhone">Phone *</label>
+          <input type="tel" id="optinPhone" name="phone" placeholder="Your phone number" required autocomplete="tel">
+        </div>
+        <div class="optin-field">
+          <label for="optinEmail">Email *</label>
+          <input type="email" id="optinEmail" name="email" placeholder="your@email.com" required autocomplete="email">
+        </div>
         <button type="submit" class="optin-submit">Get Updates &amp; Free Resources</button>
       </form>
       <div class="optin-success" id="optinSuccess">
-        <div class="optin-success-icon">✅</div>
+        <div class="optin-success-icon" aria-hidden="true">✅</div>
         <div class="optin-success-text">Thanks! We'll keep you updated.</div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- Sticky Bottom CTA Bar -->
-<div class="sticky-bar" id="stickyBar">
-  <div class="sticky-price"><span>₹</span>1,889</div>
-  <button class="sticky-btn" id="stickyCtaBtn">Buy on Amazon →</button>
-</div>
-<div class="sticky-spacer active" id="stickySpacer"></div>
-
 <script>
 (function(){
-  var AMAZON_URL='https://www.amazon.in/Chemistry-comprehensive-7-module-NCERT-based-competitive/dp/B0FG2WCL3N';
+  'use strict';
 
-  function getCookie(n){var m=document.cookie.match(new RegExp('(^|; )'+n+'=([^;]*)'));return m?decodeURIComponent(m[2]):null}
-  function buildFbc(){try{var p=new URLSearchParams(window.location.search),f=p.get('fbclid');return f?'fb.1.'+Date.now()+'.'+f:null}catch(e){return null}}
-  function genId(){return 'evt_'+Date.now()+'_'+Math.random().toString(36).slice(2,10)}
-  function fireLeadCAPI(){
-    var evt={event:'Lead',content_name:'Ace NEET 2026 & JEE 2027 Organic Chemistry - 7 Module Bundle',content_category:'Book',content_ids:['B0FG2WCL3N'],content_type:'product',value:1889,currency:'INR',num_items:1,page_url:window.location.href,page_title:document.title,timestamp:Date.now(),action_source:'website',user_agent:navigator.userAgent};
-    if(typeof fbq==='function')fbq('track','Lead',{content_name:evt.content_name,content_category:evt.content_category,content_ids:evt.content_ids,content_type:evt.content_type,value:evt.value,currency:evt.currency});
-    var fbp=getCookie('_fbp');if(fbp)evt.fbp=fbp;
-    var fbc=getCookie('_fbc')||buildFbc();if(fbc)evt.fbc=fbc;
-    evt.event_id=genId();
-    try{fetch('/api/capi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(evt),keepalive:true,mode:'cors'}).catch(function(){})}catch(_){}
+  /* ====== CONFIG ====== */
+  var AMAZON_URL = 'https://www.amazon.in/Chemistry-comprehensive-7-module-NCERT-based-competitive/dp/B0FG2WCL3N';
+
+  /* ====== UTILITIES ====== */
+  function getCookie(n) {
+    var m = document.cookie.match(new RegExp('(^|; )'+n+'=([^;]*)'));
+    return m ? decodeURIComponent(m[2]) : null;
+  }
+  function buildFbc() {
+    try {
+      var p = new URLSearchParams(window.location.search), f = p.get('fbclid');
+      return f ? 'fb.1.'+Date.now()+'.'+f : null;
+    } catch(e) { return null; }
+  }
+  function genId() { return 'evt_'+Date.now()+'_'+Math.random().toString(36).slice(2,10); }
+
+  /* ====== CAPI ====== */
+  function fireLeadCAPI() {
+    var evt = {
+      event:'Lead', content_name:'Ace NEET 2026 & JEE 2027 Organic Chemistry - 7 Module Bundle',
+      content_category:'Book', content_ids:['B0FG2WCL3N'], content_type:'product',
+      value:1889, currency:'INR', num_items:1,
+      page_url:window.location.href, page_title:document.title,
+      timestamp:Date.now(), action_source:'website',
+      user_agent:navigator.userAgent
+    };
+    if(typeof fbq==='function') fbq('track','Lead',{
+      content_name:evt.content_name, content_category:evt.content_category,
+      content_ids:evt.content_ids, content_type:evt.content_type,
+      value:evt.value, currency:evt.currency
+    });
+    var fbp = getCookie('_fbp'); if(fbp) evt.fbp = fbp;
+    var fbc = getCookie('_fbc') || buildFbc(); if(fbc) evt.fbc = fbc;
+    evt.event_id = genId();
+    try { fetch('/api/capi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(evt),keepalive:true,mode:'cors'}).catch(function(){}) } catch(_){}
   }
 
-  /* Modal */
-  var modal=document.getElementById('consentModal');
-  var continueBtn=document.getElementById('continueAmazonBtn');
-  var stayBtn=document.getElementById('stayHereBtn');
-  var optinForm=document.getElementById('optinForm');
-  var leadForm=document.getElementById('leadForm');
-  var optinSuccess=document.getElementById('optinSuccess');
+  /* ====== SCROLL PROGRESS ====== */
+  var progressBar = document.getElementById('progressBar');
+  function updateProgress() {
+    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    var pct = docHeight > 0 ? Math.min((scrollTop / docHeight) * 100, 100) : 0;
+    progressBar.style.width = pct + '%';
+  }
+  window.addEventListener('scroll', updateProgress, {passive: true});
+  updateProgress();
 
-  var POPUP_COOKIE='mk_popup_closed';
-  var POPUP_REOPEN_COOKIE='mk_popup_reopen';
-  var REOPEN_DELAY=45000; // 45 seconds
+  /* ====== STICKY BAR ====== */
+  var stickyBar = document.getElementById('stickyBar');
+  var stickySpacer = document.getElementById('stickySpacer');
+  var stickyShown = false;
+  function updateSticky() {
+    var heroBottom = document.getElementById('hero').getBoundingClientRect().bottom;
+    if (heroBottom < 80 && !stickyShown) {
+      stickyBar.classList.add('visible');
+      stickySpacer.classList.add('active');
+      stickyShown = true;
+    } else if (heroBottom > 100 && stickyShown) {
+      stickyBar.classList.remove('visible');
+      stickySpacer.classList.remove('active');
+      stickyShown = false;
+    }
+  }
+  window.addEventListener('scroll', updateSticky, {passive: true});
+  updateSticky();
 
-  function openModal(){modal.classList.add('active');document.body.style.overflow='hidden'}
-  function closeModal(){modal.classList.remove('active');document.body.style.overflow='';optinForm.classList.remove('visible');optinSuccess.classList.remove('visible');leadForm.reset();leadForm.style.display='';optinSuccess.style.display='none'}
-  function openAmazon(){fireLeadCAPI();window.open(AMAZON_URL,'_blank','noopener,noreferrer');closeModal()}
+  /* ====== SCROLL REVEAL ====== */
+  var revealEls = document.querySelectorAll('.reveal');
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  revealEls.forEach(function(el) { observer.observe(el); });
 
-  continueBtn.addEventListener('click',openAmazon);
-  stayBtn.addEventListener('click',function(){optinForm.classList.add('visible')});
+  /* ====== MODAL ====== */
+  var modal = document.getElementById('consentModal');
+  var continueBtn = document.getElementById('continueAmazonBtn');
+  var stayBtn = document.getElementById('stayHereBtn');
+  var optinForm = document.getElementById('optinForm');
+  var leadForm = document.getElementById('leadForm');
+  var optinSuccess = document.getElementById('optinSuccess');
 
-  modal.addEventListener('click',function(e){if(e.target===modal)closeModal()});
+  var POPUP_COOKIE = 'mk_popup_closed';
+  var POPUP_REOPEN_COOKIE = 'mk_popup_reopen';
+  var REOPEN_DELAY = 45000;
 
-  /* Popup logic:
-     1. Exit-intent: fires when mouse leaves viewport top (desktop).
-     2. Timed fallback: fires after 40s if no popup yet (for mobile / no mouse).
-     3. After closing, can reopen after 45s (sessionStorage).
-     4. Max 3 opens per session to avoid annoyance.
-  */
-  var popupCount=parseInt(sessionStorage.getItem('mk_popup_count')||'0',10);
-  var maxPops=3;
+  function openModal() {
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeModal() {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+    optinForm.classList.remove('visible');
+    optinSuccess.classList.remove('visible');
+    leadForm.style.display = '';
+    optinSuccess.style.display = 'none';
+    leadForm.reset();
+  }
+  function openAmazon() { fireLeadCAPI(); window.open(AMAZON_URL,'_blank','noopener,noreferrer'); closeModal(); }
 
-  function showPopup(){
-    if(popupCount>=maxPops)return;
-    sessionStorage.setItem('mk_popup_count',String(popupCount+1));
+  continueBtn.addEventListener('click', openAmazon);
+  stayBtn.addEventListener('click', function() { optinForm.classList.add('visible'); });
+  modal.addEventListener('click', function(e) { if(e.target===modal) closeModal(); });
+
+  var popupCount = parseInt(sessionStorage.getItem('mk_popup_count')||'0', 10);
+  var maxPops = 3;
+
+  function showPopup() {
+    if (popupCount >= maxPops) return;
+    sessionStorage.setItem('mk_popup_count', String(popupCount+1));
     openModal();
   }
-
-  function scheduleReopen(){
+  function scheduleReopen() {
     sessionStorage.removeItem('mk_popup_reopen_blocked');
-    // Cookie-based 45s re-open
-    var expiry=new Date(Date.now()+REOPEN_DELAY).toUTCString();
-    document.cookie= POPUP_REOPEN_COOKIE+'=1; expires='+expiry+'; path=/; SameSite=Lax';
-    // Check cookie every 2s
-    var check=setInterval(function(){
-      if(getCookie(POPUP_REOPEN_COOKIE) && !sessionStorage.getItem('mk_popup_reopen_blocked')){
+    var expiry = new Date(Date.now()+REOPEN_DELAY).toUTCString();
+    document.cookie = POPUP_REOPEN_COOKIE+'=1; expires='+expiry+'; path=/; SameSite=Lax';
+    var check = setInterval(function() {
+      if (getCookie(POPUP_REOPEN_COOKIE) && !sessionStorage.getItem('mk_popup_reopen_blocked')) {
         sessionStorage.setItem('mk_popup_reopen_blocked','1');
         clearInterval(check);
         showPopup();
       }
-    },2000);
-    // Stop checking after 60s safety
-    setTimeout(function(){clearInterval(check)},60000);
+    }, 2000);
+    setTimeout(function(){ clearInterval(check); }, 60000);
   }
 
   /* Initial popup: timed 8s */
-  if(!getCookie(POPUP_COOKIE) && popupCount<maxPops){
-    setTimeout(function(){
-      var d=new Date(Date.now()+REOPEN_DELAY).toUTCString();
-      document.cookie=POPUP_COOKIE+'=1; expires='+d+'; path=/; SameSite=Lax';
+  if (!getCookie(POPUP_COOKIE) && popupCount < maxPops) {
+    setTimeout(function() {
+      var d = new Date(Date.now()+REOPEN_DELAY).toUTCString();
+      document.cookie = POPUP_COOKIE+'=1; expires='+d+'; path=/; SameSite=Lax';
       showPopup();
       scheduleReopen();
-    },8000);
+    }, 8000);
   }
 
-  /* Exit-intent (desktop): mouse leaves viewport top */
-  document.addEventListener('mouseleave',function(e){
-    if(e.clientY<0 && !getCookie(POPUP_COOKIE) && popupCount<maxPops){
-      var d=new Date(Date.now()+REOPEN_DELAY).toUTCString();
-      document.cookie=POPUP_COOKIE+'=1; expires='+d+'; path=/; SameSite=Lax';
+  /* Exit-intent (desktop) */
+  document.addEventListener('mouseleave', function(e) {
+    if (e.clientY < 0 && !getCookie(POPUP_COOKIE) && popupCount < maxPops) {
+      var d = new Date(Date.now()+REOPEN_DELAY).toUTCString();
+      document.cookie = POPUP_COOKIE+'=1; expires='+d+'; path=/; SameSite=Lax';
       showPopup();
       scheduleReopen();
     }
   });
 
-  /* CTA buttons — direct to Amazon with Lead CAPI, zero friction */
-  function directToAmazon(e){if(e){e.preventDefault()}fireLeadCAPI();window.open(AMAZON_URL,'_blank','noopener,noreferrer')}
-  document.getElementById('ctaBtn').addEventListener('click',directToAmazon);
-  document.getElementById('stickyCtaBtn').addEventListener('click',directToAmazon);
+  /* CTA buttons — direct to Amazon with Lead CAPI */
+  function directToAmazon(e) { if(e) e.preventDefault(); fireLeadCAPI(); window.open(AMAZON_URL,'_blank','noopener,noreferrer'); }
+  document.getElementById('ctaBtn').addEventListener('click', directToAmazon);
+  document.getElementById('stickyCtaBtn').addEventListener('click', directToAmazon);
 
-  /* Gallery thumbnails */
-  document.querySelectorAll('.hero-thumb').forEach(function(thumb){
-    thumb.addEventListener('click',function(){
-      document.querySelectorAll('.hero-thumb').forEach(function(t){t.classList.remove('active')});
+  /* ====== GALLERY THUMBNAILS ====== */
+  document.querySelectorAll('.hero-thumb').forEach(function(thumb) {
+    thumb.addEventListener('click', function() {
+      document.querySelectorAll('.hero-thumb').forEach(function(t) { t.classList.remove('active'); });
       thumb.classList.add('active');
-      document.getElementById('heroMainImg').src=thumb.dataset.img;
+      document.getElementById('heroMainImg').src = thumb.dataset.img;
+    });
+    thumb.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); thumb.click(); }
     });
   });
 
-  /* Keyboard */
-  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&modal.classList.contains('active'))closeModal()});
+  /* ====== MODULE TABS ====== */
+  var tabs = document.querySelectorAll('.tab');
+  var panels = document.querySelectorAll('.module-panel');
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      var target = tab.dataset.tab;
+      tabs.forEach(function(t) { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+      tab.classList.add('active'); tab.setAttribute('aria-selected','true');
+      panels.forEach(function(p) { p.classList.remove('active'); });
+      document.getElementById('panel-'+target).classList.add('active');
+    });
+  });
+
+  /* ====== OPT-IN FORM ====== */
+  leadForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    leadForm.style.display = 'none';
+    optinSuccess.style.display = 'block';
+    optinSuccess.classList.add('visible');
+    /* TODO: wire to backend */
+  });
+
+  /* ====== KEYBOARD ====== */
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && modal.classList.contains('active')) closeModal();
+  });
+
+  /* ====== SMOOTH SCROLL FOR FOOTER LINKS ====== */
+  document.querySelectorAll('.footer-link[href^="#"]').forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var target = document.querySelector(link.getAttribute('href'));
+      if (target) target.scrollIntoView({behavior:'smooth', block:'start'});
+    });
+  });
+
 })();
 </script>
 </body>
