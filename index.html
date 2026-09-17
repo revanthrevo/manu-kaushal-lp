@@ -165,8 +165,8 @@
     .optin-success-text{font-size:14px;font-weight:600;color:var(--green)}
 
     /* Sticky bottom bar */
-    .sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:90;background:var(--white);border-top:1px solid var(--rule);padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));display:none;align-items:center;gap:12px;box-shadow:0 -2px 12px rgba(0,0,0,.08)}
-    .sticky-bar.visible{display:flex}
+    .sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:90;background:var(--white);border-top:1.5px solid var(--rule);padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:12px;box-shadow:0 -2px 12px rgba(0,0,0,.08)}
+    .sticky-spacer{height:64px}
     @media(min-width:481px){.sticky-bar{max-width:448px;left:50%;transform:translateX(-50%);border-radius:12px 12px 0 0}}
     .sticky-price{font-size:20px;font-weight:800;color:var(--text);white-space:nowrap;letter-spacing:-.5px}
     .sticky-price span{font-size:13px;font-weight:600}
@@ -383,27 +383,7 @@
   bindCta(document.getElementById('ctaBtn'));
   bindCta(document.getElementById('stickyCtaBtn'));
 
-  /* Sticky bar — show after hero scrolls out of view */
-  var stickyBar=document.getElementById('stickyBar');
-  var stickySpacer=document.getElementById('stickySpacer');
-  var hero=document.getElementById('hero');
-  var stickyVisible=false;
-
-  function updateSticky(){
-    if(!hero||!stickyBar)return;
-    var rect=hero.getBoundingClientRect();
-    var shouldShow=rect.bottom<10;
-    if(shouldShow&&!stickyVisible){stickyBar.classList.add('visible');stickySpacer.classList.add('active');stickyVisible=true}
-    else if(!shouldShow&&stickyVisible){stickyBar.classList.remove('visible');stickySpacer.classList.remove('active');stickyVisible=false}
-  }
-
-  if('IntersectionObserver' in window){
-    var obs=new IntersectionObserver(function(entries){updateSticky()},{threshold:0});
-    obs.observe(hero);
-  }else{
-    window.addEventListener('scroll',updateSticky,{passive:true});
-  }
-  updateSticky();
+  /* Sticky bar is always visible (CSS-driven) */
 
   /* Keyboard: Escape closes modal */
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&modal.classList.contains('active'))closeModal()});
