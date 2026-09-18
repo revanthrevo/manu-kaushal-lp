@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0">
+  <meta name="description" content="Ace NEET 2026 & JEE 2027 Organic Chemistry — 7-module bundle by Dr. Manu Kaushal. NCERT-based, solved PYQs 2010–2025, 4.5★ rated.">
+  <title>Ace NEET 2026 & JEE 2027 Organic Chemistry — Dr. Manu Kaushal</title>
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','YOUR_PIXEL_ID_HERE');fbq('track','PageView');fbq('track','ViewContent',{content_name:'Ace NEET 2026 & JEE 2027 Organic Chemistry - 7 Module Bundle',content_category:'Book',value:1889,currency:'INR'});
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID_HERE&ev=PageView&noscript=1" alt=""></noscript>
+  <style>
+    :root{--navy:#1a2332;--navy-lt:#2a3a52;--navy-dk:#0f1722;--gold:#f59e0b;--gold-dk:#d97706;--gold-sft:#fef3c7;--green:#047857;--green-bg:#ecfdf5;--text:#0f172a;--txt2:#475569;--txt3:#94a3b8;--bg:#f8fafc;--white:#fff;--rule:#e2e8f0;--star:#f59e0b;--save:#b91c1c;--save-bg:#fef2f2}
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;font-size:15px;min-height:100vh;min-height:100dvh;-webkit-tap-highlight-color:transparent}
+    a{text-decoration:none;color:inherit;-webkit-tap-highlight-color:transparent}
+    img{display:block;max-width:100%;height:auto}
+    button{font-family:inherit;cursor:pointer;border:none;background:none;-webkit-tap-highlight-color:transparent}
+    .page{max-width:480px;margin:0 auto;background:var(--white);min-height:100vh;min-height:100dvh}
+    @media(min-width:481px){body{background:#e2e8f0;padding:16px}.page{border-radius:12px;overflow:hidden;box-shadow:0 4px 24px rgba(15,35,42,.1)}}
+
+    .header{background:var(--navy);padding:14px 18px;padding-top:calc(14px + env(safe-area-inset-top,0px));display:flex;align-items:center;position:sticky;top:0;z-index:50}
+    .brand{display:flex;align-items:center;gap:10px}
+    .brand-mark{width:34px;height:34px;border-radius:8px;background:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:800;color:var(--navy);font-size:18px;flex-shrink:0}
+    .brand-name{font-size:14px;font-weight:700;color:var(--white);line-height:1.15}
+    .brand-name small{display:block;font-size:10px;color:var(--gold);font-weight:500;letter-spacing:.8px;text-transform:uppercase}
+
+    .hero{background:linear-gradient(135deg,var(--navy),var(--navy-lt));padding:22px 18px 26px;color:var(--white);position:relative;overflow:hidden}
+    .hero::after{content:"";position:absolute;top:-60px;right:-60px;width:180px;height:180px;background:radial-gradient(circle,rgba(245,158,11,.18),transparent 70%);pointer-events:none}
+    .hero-row{display:flex;align-items:center;gap:16px}
+    .hero-avatar{width:78px;height:78px;border-radius:50%;overflow:hidden;border:3px solid var(--gold);flex-shrink:0;background:var(--navy-lt);box-shadow:0 4px 14px rgba(0,0,0,.3)}
+    .hero-avatar img{width:100%;height:100%;object-fit:cover}
+    .hero-body{flex:1;min-width:0}
+    .hero-label{font-size:10px;color:var(--gold);font-weight:700;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}
+    .hero-name{font-size:19px;font-weight:700;letter-spacing:-.3px;line-height:1.2;margin-bottom:3px}
+    .hero-role{font-size:12.5px;color:rgba(255,255,255,.7);margin-bottom:10px}
+    .hero-tags{display:flex;gap:6px;flex-wrap:wrap}
+    .hero-tag{font-size:10.5px;color:rgba(255,255,255,.9);background:rgba(255,255,255,.1);padding:3px 9px;border-radius:11px;border:1px solid rgba(255,255,255,.15)}
+    .hero-tag b{color:var(--gold);font-weight:700}
+
+    .tagline{padding:16px 18px;background:var(--white);border-bottom:1px solid var(--rule)}
+    .tagline h1{font-size:13px;color:var(--txt2);font-weight:500;line-height:1.55}
+    .tagline h1 b{color:var(--text);font-weight:700}
+
+    .product{padding:18px;background:var(--white);border-bottom:1px solid var(--rule)}
+    .product-layout{display:flex;flex-direction:column;gap:14px;align-items:center}
+    .product-img-wrap{width:55vw;max-width:220px;display:flex;flex-direction:column;align-items:center;gap:8px}
+    .product-img{width:100%;aspect-ratio:5/7;border-radius:10px;border:1px solid var(--rule);overflow:hidden;background:linear-gradient(135deg,#f8fafc,#e2e8f0);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.10)}
+    .product-img img{max-width:100%;max-height:100%;object-fit:contain}
+    .product-thumbs{display:flex;gap:6px;justify-content:center}
+    .product-thumb{width:42px;height:56px;border-radius:4px;border:1px solid var(--rule);overflow:hidden;background:var(--bg);opacity:.7;transition:opacity .15s;cursor:pointer}
+    .product-thumb:active{opacity:1}
+    .product-thumb img{width:100%;height:100%;object-fit:cover}
+    .product-info{flex:1;min-width:0;width:100%;text-align:center}
+    .product-title{font-size:15px;font-weight:700;color:var(--text);line-height:1.3;letter-spacing:-.2px;margin-bottom:5px}
+    .product-author{font-size:12px;color:var(--txt2);margin-bottom:5px}
+    .product-author a{color:var(--navy);font-weight:600}
+    .product-format{font-size:11px;color:var(--txt3);display:inline-block;padding:2px 8px;background:var(--rule);border-radius:4px;margin-bottom:8px}
+    .rating-row{display:inline-flex;align-items:center;gap:6px;margin-bottom:8px;justify-content:center;width:100%}
+    .stars{display:inline-flex;gap:1px}
+    .star{color:var(--star);font-size:15px;line-height:1}
+    .star.dim{color:#e2e8f0}
+    .rating-text{font-size:12px;color:var(--txt2)}
+    .rating-text b{color:var(--text);font-weight:700}
+    .price-area{padding-top:8px;border-top:1px dashed var(--rule)}
+    .price-row{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin-bottom:5px}
+    .price-now{font-size:26px;font-weight:800;color:var(--text);letter-spacing:-.8px;line-height:1}
+    .price-sym{font-size:15px;font-weight:700}
+    .price-mrp{font-size:12px;color:var(--txt3)}
+    .price-mrp s{text-decoration:line-through}
+    .price-save{display:inline-block;background:var(--save-bg);color:var(--save);font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px}
+    .you-save{font-size:12px;color:var(--green);font-weight:700;margin-top:4px}
+    .you-save b{color:var(--save)}
+
+    .trust-bar{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;padding:14px;background:var(--navy);color:var(--white)}
+    .trust-item{display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center}
+    .trust-ic{width:28px;height:28px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.1);border-radius:50%}
+    .trust-ic svg{width:16px;height:16px}
+    .trust-lbl{font-size:10.5px;color:rgba(255,255,255,.85);line-height:1.25}
+
+    .section{padding:22px 18px;background:var(--white);border-bottom:1px solid var(--rule)}
+    .section-head{font-size:16px;font-weight:800;color:var(--text);letter-spacing:-.2px;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+    .section-head::before{content:"";display:inline-block;width:4px;height:18px;background:var(--gold);border-radius:2px}
+
+    .author-card{background:var(--bg);border:1px solid var(--rule);border-radius:10px;padding:16px}
+    .author-top{display:flex;gap:14px;align-items:center;margin-bottom:14px}
+    .author-photo{width:64px;height:64px;border-radius:50%;overflow:hidden;border:2px solid var(--white);box-shadow:0 2px 8px rgba(0,0,0,.1);flex-shrink:0;background:var(--navy-lt)}
+    .author-photo img{width:100%;height:100%;object-fit:cover}
+    .author-name{font-size:16px;font-weight:700;color:var(--text)}
+    .author-creds{font-size:11.5px;color:var(--txt3);margin-top:2px}
+    .author-bio{font-size:13.5px;color:var(--txt2);line-height:1.65;margin-bottom:14px}
+    .author-bio b{color:var(--text);font-weight:700}
+    .chips{display:flex;flex-wrap:wrap;gap:6px}
+    .chip{font-size:11px;color:var(--txt2);background:var(--white);padding:5px 11px;border-radius:14px;border:1px solid var(--rule);font-weight:500}
+
+    .feat-list{list-style:none}
+    .feat-list li{display:flex;gap:12px;padding:10px 0;font-size:13.5px;color:var(--txt2);border-bottom:1px solid var(--rule);line-height:1.5}
+    .feat-list li:last-child{border-bottom:none}
+    .feat-icon{flex-shrink:0;width:24px;height:24px;background:var(--gold-sft);color:var(--gold-dk);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800}
+    .feat-list b{color:var(--text);font-weight:700}
+
+    .modules{list-style:none;border:1px solid var(--rule);border-radius:10px;overflow:hidden}
+    .module{display:flex;align-items:center;gap:12px;padding:12px 14px;font-size:13.5px;color:var(--txt2);border-bottom:1px solid var(--rule);background:var(--white)}
+    .module:last-child{border-bottom:none}
+    .module:nth-child(odd){background:#f8fafc}
+    .mod-num{flex-shrink:0;width:30px;height:30px;background:var(--navy);color:var(--white);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800}
+    .module b{color:var(--text);font-weight:600}
+
+    .stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .stat{padding:14px;background:var(--bg);border:1px solid var(--rule);border-radius:10px}
+    .stat-val{font-size:19px;font-weight:800;color:var(--text);letter-spacing:-.5px}
+    .stat-val em{font-style:normal;color:var(--gold-dk)}
+    .stat-desc{font-size:11px;color:var(--txt3);margin-top:3px;line-height:1.35}
+
+    .quote{position:relative;padding:22px 18px;background:linear-gradient(135deg,var(--gold-sft),#fff7ed);border-left:4px solid var(--gold);border-radius:8px;font-style:italic;font-size:14px;color:var(--txt2);line-height:1.65}
+    .quote::before{content:"\201C";position:absolute;top:-8px;left:10px;font-size:56px;color:var(--gold);opacity:.25;font-family:Georgia,serif;line-height:1}
+    .quote-attr{margin-top:12px;font-style:normal;font-size:12px;color:var(--txt3)}
+    .quote-attr b{color:var(--text)}
+
+    .cta{padding:20px 18px 24px;background:var(--white);border-bottom:1px solid var(--rule)}
+    .cta-card{background:linear-gradient(135deg,#fffbeb,#fef3c7);border:2px solid var(--gold);border-radius:12px;padding:20px 18px;box-shadow:0 6px 20px rgba(245,158,11,.18)}
+    .cta-price{font-size:32px;font-weight:800;color:var(--text);text-align:center;letter-spacing:-1px;line-height:1;margin-bottom:4px}
+    .cta-price-sym{font-size:16px;font-weight:700}
+    .cta-save{text-align:center;font-size:13px;color:var(--save);font-weight:700;margin-bottom:16px}
+    .cta-btn{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:var(--gold);color:var(--navy);font-size:16px;font-weight:800;letter-spacing:.2px;padding:16px 20px;border-radius:10px;box-shadow:0 4px 0 var(--gold-dk),0 6px 16px rgba(245,158,11,.35);transition:transform .1s,box-shadow .1s;text-align:center}
+    .cta-btn:hover{background:#fbbf24}
+    .cta-btn:active{transform:translateY(2px);box-shadow:0 2px 0 var(--gold-dk),0 3px 8px rgba(245,158,11,.35)}
+
+    .footer{padding:22px 18px 28px;text-align:center;background:var(--navy-dk);color:rgba(255,255,255,.7)}
+    .footer-brand{font-size:14px;font-weight:700;color:var(--white);margin-bottom:8px}
+    .footer-brand span{color:var(--gold)}
+    .footer-txt{font-size:11.5px;line-height:1.7}
+    .footer-txt a{color:var(--gold);font-weight:600}
+
+    .anim{opacity:0;transform:translateY(8px);animation:up .45s ease forwards}
+    @keyframes up{to{opacity:1;transform:translateY(0)}}
+    .d1{animation-delay:.05s}.d2{animation-delay:.1s}.d3{animation-delay:.15s}.d4{animation-delay:.2s}.d5{animation-delay:.25s}.d6{animation-delay:.3s}
+
+    /* Consent Modal Overlay */
+    .modal-overlay{position:fixed;inset:0;background:rgba(15,23,34,.65);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);z-index:100;display:flex;align-items:center;justify-content:center;padding:24px;opacity:0;visibility:hidden;transition:opacity .25s,visibility .25s}
+    .modal-overlay.active{opacity:1;visibility:visible}
+    .modal{background:var(--white);border-radius:14px;padding:24px 20px;max-width:400px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,.25);transform:translateY(16px) scale(.97);transition:transform .25s}
+    .modal-overlay.active .modal{transform:translateY(0) scale(1)}
+    .modal-heading{font-size:15px;font-weight:700;color:var(--text);text-align:center;margin-bottom:6px;line-height:1.35}
+    .modal-sub{font-size:12.5px;color:var(--txt2);text-align:center;margin-bottom:20px;line-height:1.45}
+    .modal-actions{display:flex;gap:10px}
+    .modal-btn{flex:1;padding:14px 16px;border-radius:10px;font-size:14px;font-weight:700;text-align:center;transition:transform .1s,opacity .15s;-webkit-tap-highlight-color:transparent}
+    .modal-btn:active{transform:scale(.97);opacity:.85}
+    .modal-btn-primary{background:var(--gold);color:var(--navy);box-shadow:0 3px 0 var(--gold-dk)}
+    .modal-btn-secondary{background:var(--white);color:var(--navy);border:1.5px solid var(--rule)}
+
+    /* Opt-in Form */
+    .optin-form{margin-top:16px;padding-top:16px;border-top:1px solid var(--rule);display:none}
+    .optin-form.visible{display:block;animation:up .35s ease forwards}
+    .optin-field{margin-bottom:10px}
+    .optin-field label{display:block;font-size:11.5px;font-weight:600;color:var(--txt2);margin-bottom:4px;text-transform:uppercase;letter-spacing:.5px}
+    .optin-field input{width:100%;padding:12px 14px;border:1.5px solid var(--rule);border-radius:8px;font-size:14px;font-family:inherit;color:var(--text);background:var(--bg);outline:none;transition:border-color .15s}
+    .optin-field input:focus{border-color:var(--gold);background:var(--white)}
+    .optin-submit{width:100%;padding:14px;background:var(--navy);color:var(--white);font-size:14px;font-weight:700;border-radius:8px;margin-top:4px;transition:background .15s}
+    .optin-submit:hover{background:var(--navy-lt)}
+    .optin-success{display:none;text-align:center;padding:16px 0 4px}
+    .optin-success.visible{display:block;animation:up .35s ease forwards}
+    .optin-success-icon{font-size:36px;margin-bottom:8px}
+    .optin-success-text{font-size:14px;font-weight:600;color:var(--green)}
+
+    /* Sticky bottom bar */
+    .sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:90;background:var(--white);border-top:1.5px solid var(--rule);padding:10px 16px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;gap:12px;box-shadow:0 -2px 12px rgba(0,0,0,.08)}
+    .sticky-spacer{height:64px}
+    @media(min-width:481px){.sticky-bar{max-width:448px;left:50%;transform:translateX(-50%);border-radius:12px 12px 0 0}}
+    .sticky-price{font-size:20px;font-weight:800;color:var(--text);white-space:nowrap;letter-spacing:-.5px}
+    .sticky-price span{font-size:13px;font-weight:600}
+    .sticky-btn{flex:1;background:var(--gold);color:var(--navy);font-size:14px;font-weight:800;padding:12px 16px;border-radius:8px;text-align:center;box-shadow:0 3px 0 var(--gold-dk);transition:transform .1s}
+    .sticky-btn:active{transform:translateY(1px);box-shadow:0 1px 0 var(--gold-dk)}
+
+    /* Spacer for sticky bar */
+    .sticky-spacer{height:0}
+    .sticky-spacer.active{height:64px}
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- TODO: Replace with author photo from Instagram @dr.manukaushal (source couldn't be fetched; current fallback is assets/author-photo.png) -->
+
+  <header class="header">
+    <div class="brand">
+      <div class="brand-mark">M</div>
+      <div class="brand-name">Manu Kaushal Publications<small>Excellence in Chemistry</small></div>
+    </div>
+  </header>
+
+  <section class="hero anim" id="hero">
+    <div class="hero-row">
+      <div class="hero-avatar"><img src="assets/author-photo.png" alt="Dr. Manu Kaushal" loading="eager"></div>
+      <div class="hero-body">
+        <div class="hero-label">Author</div>
+        <div class="hero-name">Dr. Manu Kaushal</div>
+        <div class="hero-role">NEET &amp; JEE Chemistry Mentor</div>
+        <div class="hero-tags"><span class="hero-tag"><b>18+</b> yrs</span><span class="hero-tag"><b>18K+</b> students</span><span class="hero-tag">AIR <b>3,14,19</b></span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tagline anim d1"><h1><b>Ace NEET 2026 &amp; JEE 2027 Organic Chemistry</b> with a comprehensive 7-module bundle by Dr. Manu Kaushal — NCERT-based theory, solved PYQs (2010–2025), mechanisms, flowcharts &amp; quick revision notes.</h1></div>
+
+  <section class="product anim d2">
+    <div class="product-layout">
+      <div class="product-img-wrap">
+        <div class="product-img"><img src="assets/book-cover.jpg" alt="Book cover" loading="eager"></div>
+        <div class="product-thumbs">
+          <div class="product-thumb"><img src="assets/book-cover.jpg" alt="Cover thumb 1"></div>
+          <div class="product-thumb"><img src="assets/book-cover.jpg" alt="Cover thumb 2"></div>
+          <div class="product-thumb"><img src="assets/book-cover.jpg" alt="Cover thumb 3"></div>
+        </div>
+      </div>
+      <div class="product-info">
+        <h2 class="product-title">Ace NEET 2026 &amp; JEE 2027 Organic Chemistry</h2>
+        <div class="product-author">by <a href="https://drmanukaushal.com" target="_blank" rel="noopener">Dr. Manu Kaushal</a> · <span style="color:var(--gold-dk);font-weight:600;">Manu Kaushal Publications</span></div>
+        <span class="product-format">Perfect Paperback</span>
+        <div class="rating-row"><span class="stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star dim">★</span></span><span class="rating-text"><b>4.5</b> · 25 ratings</span></div>
+        <div class="price-area">
+          <div class="price-row"><span class="price-now"><span class="price-sym">₹</span>1,889</span><span class="price-mrp">MRP <s>₹3,999</s></span><span class="price-save">53% off</span></div>
+          <div class="you-save">You Save <b>₹2,110</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="trust-bar anim d3">
+    <div class="trust-item"><div class="trust-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><rect x="3" y="8" width="14" height="10" rx="1.5"/><path d="M17 11h3l2 3v4h-5z"/><circle cx="7" cy="20" r="1.5" fill="#f59e0b" stroke="none"/><circle cx="18" cy="20" r="1.5" fill="#f59e0b" stroke="none"/></svg></div><span class="trust-lbl">Free Delivery</span></div>
+    <div class="trust-item"><div class="trust-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><path d="M12 2 3 7v6c0 5.5 3.7 10.6 9 12 5.2-1.4 9-6.5 9-12V7l-9-5z"/><path d="m9 12 2 2.5L15 10" stroke-linecap="round" stroke-linejoin="round"/></svg></div><span class="trust-lbl">Secure<br>Checkout</span></div>
+    <div class="trust-item"><div class="trust-ic"><svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2"><path d="M21 12a9 9 0 1 1-9-9"/><path d="M21 3v6h-6"/></svg></div><span class="trust-lbl">7-Day<br>Replacement</span></div>
+  </div>
+
+  <section class="section anim d4">
+    <h3 class="section-head">About the Author</h3>
+    <div class="author-card">
+      <div class="author-top">
+        <div class="author-photo"><img src="assets/author-photo.png" alt="Dr. Manu Kaushal"></div>
+        <div><div class="author-name">Dr. Manu Kaushal</div><div class="author-creds">Chemistry Educator · 18+ years</div></div>
+      </div>
+      <p class="author-bio">Dr. Manu Kaushal has mentored <b>18,000+ NEET &amp; JEE aspirants</b> over 18 years. Former Academic Dean at <b>Narayana Institute</b>, Ex-Senior Faculty at <b>Aakash Institute Delhi</b>, now Academic Director at <b>St. Mary's Academy</b>. Known for producing top ranks — <b>AIR 3, 14, 19, 23, 29, 39</b>.</p>
+      <div class="chips"><span class="chip">🏆 18+ Years</span><span class="chip">🥇 AIR 3, 14, 19</span><span class="chip">📚 18K+ Students</span><span class="chip">🎓 Ex-Aakash</span><span class="chip">🧪 NCERT-Based</span></div>
+    </div>
+  </section>
+
+  <section class="section anim d5">
+    <h3 class="section-head">What's in the Box</h3>
+    <ul class="feat-list">
+      <li><span class="feat-icon">✓</span><span><b>7 comprehensive modules</b> covering complete Organic Chemistry for NEET &amp; JEE — from GOC to Amines</span></li>
+      <li><span class="feat-icon">✓</span><span><b>PYQs 2010–2025</b> — NEET, JEE Mains &amp; Advanced, fully solved chapter-wise</span></li>
+      <li><span class="feat-icon">✓</span><span><b>100% NCERT mapped</b> — page-by-page theory aligned with the revised curriculum</span></li>
+      <li><span class="feat-icon">✓</span><span><b>Reaction mechanisms &amp; flowcharts</b> for visual learners and last-minute revision</span></li>
+      <li><span class="feat-icon">✓</span><span><b>Jugaadzz method</b> — shortcuts, mnemonics, and exam tricks no coaching center teaches</span></li>
+      <li><span class="feat-icon">✓</span><span><b>4.5★ rated</b> by students across India</span></li>
+    </ul>
+  </section>
+
+  <section class="section anim d5">
+    <h3 class="section-head">7 Modules Included</h3>
+    <ol class="modules">
+      <li class="module"><span class="mod-num">01</span><span><b>General Organic Chemistry (GOC)</b></span></li>
+      <li class="module"><span class="mod-num">02</span><span><b>Leaving Groups, Basicity, Nucleophilicity &amp; Isomerism</b></span></li>
+      <li class="module"><span class="mod-num">03</span><span><b>Hydrocarbons &amp; Aromatic Compounds</b></span></li>
+      <li class="module"><span class="mod-num">04</span><span><b>Haloalkanes &amp; Haloarenes</b></span></li>
+      <li class="module"><span class="mod-num">05</span><span><b>Alcohols, Phenols &amp; Ethers</b></span></li>
+      <li class="module"><span class="mod-num">06</span><span><b>Aldehydes, Ketones &amp; Carboxylic Acids</b></span></li>
+      <li class="module"><span class="mod-num">07</span><span><b>Amines</b></span></li>
+    </ol>
+  </section>
+
+  <section class="section anim d6">
+    <h3 class="section-head">Why It Works</h3>
+    <div class="stats">
+      <div class="stat"><div class="stat-val"><em>2010</em>–2025</div><div class="stat-desc">PYQs fully solved, chapter-wise</div></div>
+      <div class="stat"><div class="stat-val"><em>100%</em> NCERT</div><div class="stat-desc">Page-by-page, revised curriculum</div></div>
+      <div class="stat"><div class="stat-val"><em>7</em> Modules</div><div class="stat-desc">Complete Organic syllabus</div></div>
+      <div class="stat"><div class="stat-val"><em>4.5</em><span style="color:var(--star)">★</span></div><div class="stat-desc">Student-rated quality</div></div>
+    </div>
+  </section>
+
+  <section class="section anim d6">
+    <div class="quote">
+      Most students don't struggle with Organic Chemistry because they can't study it. They struggle because somewhere along the way, a few concepts were never truly understood. That's exactly what this series fixes.
+      <div class="quote-attr">— <b>Dr. Manu Kaushal</b>, on 18+ years of teaching NEET &amp; JEE aspirants</div>
+    </div>
+  </section>
+
+  <section class="cta anim d6" id="ctaSection">
+    <div class="cta-card">
+      <div class="cta-price"><span class="cta-price-sym">₹</span>1,889</div>
+      <div class="cta-save">You Save ₹2,110 — 53% off MRP ₹3,999</div>
+      <button id="ctaBtn" class="cta-btn">Buy on Amazon <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-brand">Manu Kaushal <span>Publications</span></div>
+    <div class="footer-txt">© 2025 Manu Kaushal Publications. All rights reserved.<br><a href="https://drmanukaushal.com" target="_blank" rel="noopener">drmanukaushal.com</a></div>
+  </footer>
+
+</div>
+
+<!-- Consent Modal -->
+<div class="modal-overlay" id="consentModal">
+  <div class="modal">
+    <div class="modal-heading">You'll be redirected to Amazon.in to complete your purchase.</div>
+    <div class="modal-sub">Continue to Amazon or stay here to get updates &amp; free resources.</div>
+    <div class="modal-actions">
+      <button class="modal-btn modal-btn-primary" id="continueAmazonBtn">Continue to Amazon →</button>
+      <button class="modal-btn modal-btn-secondary" id="stayHereBtn">Stay here</button>
+    </div>
+    <div class="optin-form" id="optinForm">
+      <form id="leadForm" novalidate>
+        <div class="optin-field"><label for="optinName">Name *</label><input type="text" id="optinName" name="name" placeholder="Your name" required autocomplete="name"></div>
+        <div class="optin-field"><label for="optinPhone">Phone *</label><input type="tel" id="optinPhone" name="phone" placeholder="Your phone number" required autocomplete="tel"></div>
+        <div class="optin-field"><label for="optinEmail">Email *</label><input type="email" id="optinEmail" name="email" placeholder="your@email.com" required autocomplete="email"></div>
+        <button type="submit" class="optin-submit">Get Updates &amp; Free Resources</button>
+      </form>
+      <div class="optin-success" id="optinSuccess">
+        <div class="optin-success-icon">✅</div>
+        <div class="optin-success-text">Thanks! We'll keep you updated.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sticky Bottom CTA Bar -->
+<div class="sticky-bar" id="stickyBar">
+  <div class="sticky-price"><span>₹</span>1,889</div>
+  <button class="sticky-btn" id="stickyCtaBtn">Buy on Amazon →</button>
+</div>
+<div class="sticky-spacer" id="stickySpacer"></div>
+
+<script>
+(function(){
+  var AMAZON_URL='https://www.amazon.in/Chemistry-comprehensive-7-module-NCERT-based-competitive/dp/B0FG2WCL3N';
+
+  function getCookie(n){var m=document.cookie.match(new RegExp('(^|; )'+n+'=([^;]*)'));return m?decodeURIComponent(m[2]):null}
+  function buildFbc(){try{var p=new URLSearchParams(window.location.search),f=p.get('fbclid');return f?'fb.1.'+Date.now()+'.'+f:null}catch(e){return null}}
+  function genId(){return 'evt_'+Date.now()+'_'+Math.random().toString(36).slice(2,10)}
+  function fireLeadCAPI(){
+    var evt={event:'Lead',content_name:'Ace NEET 2026 & JEE 2027 Organic Chemistry - 7 Module Bundle',content_category:'Book',content_ids:['B0FG2WCL3N'],content_type:'product',value:1889,currency:'INR',num_items:1,page_url:window.location.href,page_title:document.title,timestamp:Date.now(),action_source:'website',user_agent:navigator.userAgent};
+    if(typeof fbq==='function')fbq('track','Lead',{content_name:evt.content_name,content_category:evt.content_category,content_ids:evt.content_ids,content_type:evt.content_type,value:evt.value,currency:evt.currency});
+    var fbp=getCookie('_fbp');if(fbp)evt.fbp=fbp;
+    var fbc=getCookie('_fbc')||buildFbc();if(fbc)evt.fbc=fbc;
+    evt.event_id=genId();
+    try{fetch('/api/capi',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(evt),keepalive:true,mode:'cors'}).catch(function(){})}catch(_){}
+  }
+
+  /* Modal */
+  var modal=document.getElementById('consentModal');
+  var continueBtn=document.getElementById('continueAmazonBtn');
+  var stayBtn=document.getElementById('stayHereBtn');
+  var optinForm=document.getElementById('optinForm');
+  var leadForm=document.getElementById('leadForm');
+  var optinSuccess=document.getElementById('optinSuccess');
+
+  function openModal(){modal.classList.add('active');document.body.style.overflow='hidden'}
+  function closeModal(){modal.classList.remove('active');document.body.style.overflow='';optinForm.classList.remove('visible');optinSuccess.classList.remove('visible');leadForm.reset();leadForm.style.display='';optinSuccess.style.display='none'}
+  function openAmazon(){fireLeadCAPI();window.open(AMAZON_URL,'_blank','noopener,noreferrer');closeModal()}
+
+  continueBtn.addEventListener('click',openAmazon);
+  stayBtn.addEventListener('click',function(){optinForm.classList.add('visible')});
+
+  modal.addEventListener('click',function(e){if(e.target===modal)closeModal()});
+
+  /* Timed consent popup — fires once after 8s, once per session */
+  if(!sessionStorage.getItem('consentShown')){
+    setTimeout(function(){
+      sessionStorage.setItem('consentShown','1');
+      openModal();
+    },8000);
+  }
+
+  /* Opt-in submit */
+  leadForm.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=leadForm.name.value.trim();
+    var phone=leadForm.phone.value.trim();
+    var email=leadForm.email.value.trim();
+    if(!name||!phone||!email)return;
+    try{fetch('/api/optin',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:name,phone:phone,email:email,source:'landing_page'}),keepalive:true,mode:'cors'}).catch(function(){})}catch(_){}
+    leadForm.style.display='none';
+    optinSuccess.classList.add('visible');
+  });
+
+  /* CTA buttons — direct to Amazon with Lead CAPI, zero friction */
+  function directToAmazon(e){
+    if(e){e.preventDefault()}
+    fireLeadCAPI();
+    window.open(AMAZON_URL,'_blank','noopener,noreferrer');
+  }
+  document.getElementById('ctaBtn').addEventListener('click',directToAmazon);
+  document.getElementById('stickyCtaBtn').addEventListener('click',directToAmazon);
+
+  /* Sticky bar is always visible (CSS-driven) */
+
+  /* Keyboard: Escape closes modal */
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&modal.classList.contains('active'))closeModal()});
+})();
+</script>
+<!-- Setup: (1) Replace YOUR_PIXEL_ID_HERE (2×). (2) /api/capi endpoint for CAPI forwarding. Events: PageView+ViewContent (load), Lead (CTA click). -->
+</body>
+</html>
